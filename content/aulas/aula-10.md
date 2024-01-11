@@ -36,12 +36,8 @@ O nome de função “main” tem um papel especial para o Python, assim como pa
 
 A função main possui um comportamento diferente também quanto ao recebimento de argumentos, mas não vamos ver todos os detalhes disso agora. Para todos os efeitos, nos nossos exemplos, usaremos a função main sem parâmetros. Por causa disso, foi necessário definir todos os dados do experimento diretamente na função main. Para mudar qualquer informação, o código precisará ser editado, alterando os valores das variáveis desejadas. Abaixo você pode ver o código da função e o lugar onde os dados foram explicitamente colocados:
 
-```python
-def main():
-    '''programa principal para realização dos cálculos do laboratório de cinemática'''
-    TODO TODO TODO
-    TEM QUE ACHAR ESSE CÓDIGO FONTE
-```
+**TODO: transformar isso em código copiável**
+![Programa principal para realização dos cálculos do laboratório de cinemática](/aula10/image5.png)
 
 Quando o usuário final não é o próprio programador, fica bem ruim ele ter que abrir o código para fazer alterações diretamente quando deseja informar os valores com os quais o programa vai trabalhar. Temos que pensar que o usuário final de um programa normalmente não quer se preocupar com a sintaxe esperada pela linguagem para cada tipo de dados que ele precisa fornecer para o programa. Por exemplo, se eu preciso fornecer uma lista de números, não preciso saber que uma lista precisa estar entre colchetes, ou se forneço um nome, não preciso colocar o nome entre aspas…
 
@@ -133,9 +129,8 @@ Podemos usar códigos específicos para definir o formato dos dados a serem inse
 
 Todos os dados float abaixo foram formatados com o código `{6.2f}`:
 
-
-**TODO TODO TODO TODO**
-**COLOCAR FIGURA**
+![Exemplo de formato {6.2f}](/aula10/image4.png)
+![Exemplo de formato {6.2f}](/aula10/image3.png)
 
 Fonte: https://www.python-course.eu/python3_formatted_output.php
 
@@ -165,8 +160,9 @@ Agora já temos todos os elementos que precisamos para a  produção de um progr
 
 **Atividade:** Faça o download do programa disponibilizado para o exemplo do “laboratório de física” (o arquivo se chama “laboratório_fisica_interface_simples_a_completar.py”), visto nesta aula. O código foi disponibilizado junto com este roteiro. Seguindo o padrão de arquitetura que separa a interface das funções de serviço, neste programa, as chamadas para as funções de entrada e saída de dados (input e print) estão dentro da função main. Porém faltam algumas! Complete as que estão faltando (indicadas nos comentários do código) de forma a produzir o seguinte efeito quando o usuário utiliza:
 
-**TODO TODO TODO**
-**INSERIR FIGURA**
+**TODO transformar em copi;avel**
+
+![Execução lab física simples](/aula10/image1.png)
 
 ## Prática em Programação
 
