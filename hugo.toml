@@ -18,6 +18,7 @@ theme = 'relearn'
     description = 'Material do curso Computação I em Python'
 
     themeVariant = 'blue'
+    disableLandingPageButton = true
     disableSearch = true
     ordersectionsby = 'linktitle'
     alwaysopen = true
