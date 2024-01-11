@@ -1,6 +1,5 @@
 ---
 title: "05. Listas e Dicionários"
-date: 2024-01-10T18:33:24-03:00
 ---
 
 # Aula 5 - Listas e Dicionários
