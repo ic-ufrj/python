@@ -3,8 +3,15 @@ languageCode = 'pt_BR'
 title = 'Python UFRJ'
 theme = 'hugo-book'
 
-# Configuração do tema Hugo-Book
+[markup.goldmark.renderer]
+    # Permite incluir tags HTML como <sup></sup>
+    # Também é necessário para os plugins mermaid e katex
+    # (Tome cuidado para não incluir HTML malvado sem querer)
+    unsafe = true
+
 [params]
+    # Configuração do tema (Hugo Book)
+
     # Não usar o "table of contents"
     # Ocupa muito espaço horizontal
     BookToC = false
@@ -15,8 +22,3 @@ theme = 'hugo-book'
 
     # Temos poucas aulas, não precisa de barra de busca.
     BookSearch = false
-
-[markup.goldmark.renderer]
-    # Permite incluir tags HTML como <sup></sup>
-    # Tomar cuidado para não incluir HTML malvado sem querer.
-    unsafe = true
