@@ -1,0 +1,22 @@
+#baseURL = 'http://example.org/'
+languageCode = 'pt_BR'
+title = 'Python UFRJ'
+theme = 'hugo-book'
+
+# Configuração do tema Hugo-Book
+[params]
+    # Não usar o "table of contents"
+    # Ocupa muito espaço horizontal
+    BookToC = false
+
+    # Mostrar tudo que está dentro de content
+    # Por padrão, só mostraria o conteúdo de content/docs
+    BookSection = '*'
+
+    # Temos poucas aulas, não precisa de barra de busca.
+    BookSearch = false
+
+[markup.goldmark.renderer]
+    # Permite incluir tags HTML como <sup></sup>
+    # Tomar cuidado para não incluir HTML malvado sem querer.
+    unsafe = true
