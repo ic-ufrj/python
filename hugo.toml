@@ -1,24 +1,24 @@
 #baseURL = 'http://example.org/'
 languageCode = 'pt_BR'
 title = 'Python UFRJ'
-theme = 'hugo-book'
+theme = 'relearn'
 
 [markup.goldmark.renderer]
     # Permite incluir tags HTML como <sup></sup>
-    # Também é necessário para os plugins mermaid e katex
+    # Também é necessário para os plugins mermaid e mathjax
     # (Tome cuidado para não incluir HTML malvado sem querer)
     unsafe = true
 
 [params]
-    # Configuração do tema (Hugo Book)
+    # Configuração do tema (Relearn)
+    # https://mcshelby.github.io/hugo-theme-relearn/basics/configuration/index.html
 
-    # Não usar o "table of contents"
-    # Ocupa muito espaço horizontal
-    BookToC = false
+    # Estes parametros afetam tags <meta>
+    author.name = 'Instituto de Computação'
+    description = 'Material do curso Computação I em Python'
 
-    # Mostrar tudo que está dentro de content
-    # Por padrão, só mostraria o conteúdo de content/docs
-    BookSection = '*'
-
-    # Temos poucas aulas, não precisa de barra de busca.
-    BookSearch = false
+    themeVariant = 'blue'
+    disableSearch = true
+    ordersectionsby = 'linktitle'
+    alwaysopen = true
+    highlightWrap = false # pois Python depende de identação

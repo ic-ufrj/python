@@ -2,14 +2,12 @@
 title: "05. Listas e Dicionários"
 ---
 
-# Aula 5 - Listas e Dicionários
+Na aula anterior estudamos os tipos de dados string e tupla. Nesta aula veremos mais dois tipos de dados bastante poderosos: as listas e os dicionários.
 
-Na aula anterior estudamos os tipos de dados string e tupla. Nesta aula veremos mais dois tipos de dados bastante poderosos: as listas e os dicionários. 
-
-Nova ferramenta: A partir desta aula vamos trabalhar com mais uma ferramenta: Python Tutor. É uma ferramenta online e gratuita. Python Tutor ajuda a visualizar uma abstração do que está acontecendo na memória ao longo da execução de um código em Python. O que podemos visualizar com Python Tutor é muito similar ao teste de mesa, com a diferença de que ela faz a simulação da execução para nós. A vantagem, é que quando estamos com algum conceito errado na cabeça, ela ajuda, mostrando que o comportamento não é o que esperávamos, e é mais rápida. Mas ela não substitui o teste de mesa, no sentido que, se não somos capazes de simular a execução nós mesmos, teremos muita dificuldade de corrigir os erros que aparecerão no código. Ela será especialmente útil a partir de agora que nossos códigos estão ficando mais complexos e com a introdução dos tipos de dados mutáveis. 
+Nova ferramenta: A partir desta aula vamos trabalhar com mais uma ferramenta: Python Tutor. É uma ferramenta online e gratuita. Python Tutor ajuda a visualizar uma abstração do que está acontecendo na memória ao longo da execução de um código em Python. O que podemos visualizar com Python Tutor é muito similar ao teste de mesa, com a diferença de que ela faz a simulação da execução para nós. A vantagem, é que quando estamos com algum conceito errado na cabeça, ela ajuda, mostrando que o comportamento não é o que esperávamos, e é mais rápida. Mas ela não substitui o teste de mesa, no sentido que, se não somos capazes de simular a execução nós mesmos, teremos muita dificuldade de corrigir os erros que aparecerão no código. Ela será especialmente útil a partir de agora que nossos códigos estão ficando mais complexos e com a introdução dos tipos de dados mutáveis.
 Veja como usar a ferramenta no vídeo:
 
-https://youtu.be/7-MSDcyDjLk 
+https://youtu.be/7-MSDcyDjLk
 
 Depois de assistir, experimente a ferramenta com os exemplos desse roteiro. Acesse o Python Tutor em:
 
@@ -24,11 +22,11 @@ A organização e os métodos para manipular essa estrutura lhe conferem singula
 O termo sequência na computação denota uma estrutura de dados abstrata que implementa uma coleção de valores onde a ordem dos elementos importa, em que o mesmo valor pode ocorrer mais de uma vez. Cada ocorrência de um valor na sequência é normalmente chamada de item ou elemento. Se o mesmo valor ocorrer várias vezes, cada ocorrência é considerada um item distinto.
 (texto adaptado de https://pt.wikipedia.org/wiki/Lista)
 
-Em Python, uma das implementações de sequência são as **tuplas**. Nesta aula veremos outra: as **listas**. As **strings**, por sua vez, são um caso restrito de sequência, já que todos os seus elementos são necessariamente strings de tamanho 1. 
+Em Python, uma das implementações de sequência são as **tuplas**. Nesta aula veremos outra: as **listas**. As **strings**, por sua vez, são um caso restrito de sequência, já que todos os seus elementos são necessariamente strings de tamanho 1.
 
 ## Listas
 
-Uma lista (list) em Python é uma sequência ou coleção ordenada de valores. Cada valor na lista é identificado por um índice. Os valores que formam uma lista são chamados elementos ou itens. Listas são similares a tuplas, com uma diferença: listas são mutáveis! Isso significa que podemos alterar pedaços da lista ou editá-la sem ter que criar outra lista. Esta característica faz com que este tipo de dado seja o mais versátil do Python. 
+Uma lista (list) em Python é uma sequência ou coleção ordenada de valores. Cada valor na lista é identificado por um índice. Os valores que formam uma lista são chamados elementos ou itens. Listas são similares a tuplas, com uma diferença: listas são mutáveis! Isso significa que podemos alterar pedaços da lista ou editá-la sem ter que criar outra lista. Esta característica faz com que este tipo de dado seja o mais versátil do Python.
 Para criar uma lista, apresentamos seus elementos entre colchetes (`[]`), os separando por vírgula. Exemplo: `listanum=[1,2,3,4]`.  Uma lista vazia é representada por `[]`.
 
 Da mesma forma que ocorre com strings e tuplas, a função `len` retorna o tamanho de uma lista (o número de elementos na lista). Para indexar uma lista, usamos o mesmo operador de indexação usado com tuplas e strings. Lembre-se que o índice do primeiro elemento é 0, índices negativos indicarão elementos da direita para a esquerda ao invés de da esquerda para a direita (`"Jobim"[-1]` é uma expressão que será avaliada como `"m"`).
@@ -51,15 +49,15 @@ True
 False
 ```
 
-No vídeo a seguir você vai ver uma apresentação do tipo lista.  
+No vídeo a seguir você vai ver uma apresentação do tipo lista.
 [Introdução a listas](https://youtu.be/6h8oZBzXoBM)
 
 ## Mutabilidade e Imutabilidade
 
-Vamos entender agora as similaridades e diferenças entre eles e o papel de strings, tuplas e listas na construção de código em Python. 
+Vamos entender agora as similaridades e diferenças entre eles e o papel de strings, tuplas e listas na construção de código em Python.
 
-**Similaridades**: Todos são sequências e podem ser indexados. A forma de indexar é a mesma: começando do zero até o tamanho-1. Índices negativos podem ser usados para o acesso na ordem reversa. 
-Todos podem ser acessados através da operação de indexação (índice entre colchetes) e têm a mesma definição de "tamanho", que pode ser retornado pela função `len`. 
+**Similaridades**: Todos são sequências e podem ser indexados. A forma de indexar é a mesma: começando do zero até o tamanho-1. Índices negativos podem ser usados para o acesso na ordem reversa.
+Todos podem ser acessados através da operação de indexação (índice entre colchetes) e têm a mesma definição de "tamanho", que pode ser retornado pela função `len`.
 
 Assim como dados de tipos simples (inteiros, floats, booleanos), todos podem servir para criação de novos dados, através de operações disponíveis para aquele tipo. Exemplos de operações destes tipos dados são concatenação (`+`), replicação (`*`) e fatiamento.
 
@@ -73,10 +71,10 @@ Assim como dados de tipos simples (inteiros, floats, booleanos), todos podem ser
 "b"
 ```
 
-Strings são um tipo de dados adequado para representar textos, frases, palavras e caracteres. Estes são conteúdos usuais de uma linguagem. Logo, elementos de comunicação entendidos por usuários e programadores.  
+Strings são um tipo de dados adequado para representar textos, frases, palavras e caracteres. Estes são conteúdos usuais de uma linguagem. Logo, elementos de comunicação entendidos por usuários e programadores.
 
 Nas tuplas e listas, por sua vez, os elementos podem ser de qualquer tipo. Uma mesma tupla ou lista pode, inclusive, ter elementos de diversos tipos. Qual a diferença entre tuplas e listas, então?
-A diferença entre tuplas e listas é a mutabilidade. Tuplas, como as strings, são tipos de dados imutáveis. Ou seja, qualquer alteração que seja necessária em um valor após a sua criação implica na criação de um novo dado, em algum outro lugar da memória. A criação deste novo dado não interfere na existência do dado original. 
+A diferença entre tuplas e listas é a mutabilidade. Tuplas, como as strings, são tipos de dados imutáveis. Ou seja, qualquer alteração que seja necessária em um valor após a sua criação implica na criação de um novo dado, em algum outro lugar da memória. A criação deste novo dado não interfere na existência do dado original.
 
 Por exemplo, imagine que foi criada uma tupla contendo os números 0, 2 e 3.
 
@@ -99,13 +97,13 @@ A mesma coisa acontece com as strings. Para tirar um caractere de uma string, pr
 ```python
 >>> palavra = 'bannana'
 >>> palavra_corrigida = palavra[:2] +palavra[3:]
->>> palavra_corrigida 
+>>> palavra_corrigida
 'banana'
->>> palavra 
+>>> palavra
 'bannana'
 ```
 
-No caso das listas, podemos executar exatamente o mesmo processo para gerar novos dados, ou seja, construir novas listas a partir da desconstrução e reconstrução de uma lista original. Porém há outra maneira de lidar com listas, pelo fato de serem mutáveis. 
+No caso das listas, podemos executar exatamente o mesmo processo para gerar novos dados, ou seja, construir novas listas a partir da desconstrução e reconstrução de uma lista original. Porém há outra maneira de lidar com listas, pelo fato de serem mutáveis.
 
 O exemplo apresentado acima com tuplas funciona da mesma maneira com dados do tipo lista:
 
@@ -152,26 +150,26 @@ As listas, assim como as strings e as tuplas, podem ser fatiadas gerando sublist
 [30, 50, 70]
 ```
 
-Neste exemplo, foi criada uma sublista da lista `numeros` chamada `alguns_numeros`. A sublista começa no item 2 (lembre-se que a indexação começa em 0), vai até o item 7 (não inclusive), com incremento de 2. 
+Neste exemplo, foi criada uma sublista da lista `numeros` chamada `alguns_numeros`. A sublista começa no item 2 (lembre-se que a indexação começa em 0), vai até o item 7 (não inclusive), com incremento de 2.
 
-O vídeo a seguir apresenta de forma detalhada o fatiamento de listas. Você pode observar que o funcionamento é exatamente o mesmo do que tínhamos visto para strings e tuplas. 
+O vídeo a seguir apresenta de forma detalhada o fatiamento de listas. Você pode observar que o funcionamento é exatamente o mesmo do que tínhamos visto para strings e tuplas.
 [Fatiamento de listas](https://youtu.be/7gSq8kNx1_M)
 
-O Python permite o uso do comando de atribuição para fatias de listas. Ficou curioso? Você pode pesquisar mais sobre isso na internet  ;-). Temos também um vídeo que aborda esse assunto, para ajudar a matar a curiosidade: Atribuição a fatias. 
+O Python permite o uso do comando de atribuição para fatias de listas. Ficou curioso? Você pode pesquisar mais sobre isso na internet  ;-). Temos também um vídeo que aborda esse assunto, para ajudar a matar a curiosidade: Atribuição a fatias.
 
-**Atividade:** Vamos agora treinar um pouco com exercícios de fixação. Responda às perguntas da atividade "Uso de listas". Fique atento ao prazo de entrega dessa atividade! 
+**Atividade:** Vamos agora treinar um pouco com exercícios de fixação. Responda às perguntas da atividade "Uso de listas". Fique atento ao prazo de entrega dessa atividade!
 
-## Dicionários 
+## Dicionários
 
-Além das sequências, o Python possui uma estrutura de dados chamada **dicionário** para coleções não ordenadas. Coleções **não ordenadas**, como o nome diz, não pressupõem ordem entre seus elementos, logo o conceito de índices de acesso não se aplica a elas. 
+Além das sequências, o Python possui uma estrutura de dados chamada **dicionário** para coleções não ordenadas. Coleções **não ordenadas**, como o nome diz, não pressupõem ordem entre seus elementos, logo o conceito de índices de acesso não se aplica a elas.
 
 Sobre a notação, enquanto strings usam aspas, tuplas usam parênteses, e listas usam colchetes, os dicionários são delimitados por chaves `{ }`. Apenas as chaves, `{}`, representam um dicionário vazio.
 
-A principal diferença entre dicionários e as sequências (strings, tuplas e listas) está na forma como os elementos são acessados, uma vez que esse acesso não é feito através de uma posição (índice). 
+A principal diferença entre dicionários e as sequências (strings, tuplas e listas) está na forma como os elementos são acessados, uma vez que esse acesso não é feito através de uma posição (índice).
 
-Como poderemos então acessar os elementos do dicionário, já que eles não têm um índice derivado de sua ordem? A verdade é que para usar dicionários fornecemos também nossa própria maneira de indexar os elementos, que não pressupõe uma ordem numérica. Os dicionários são estruturas mais sofisticadas que as sequências, já que eles armazenam pares chave-valor, ou seja, **mapeamentos**. 
+Como poderemos então acessar os elementos do dicionário, já que eles não têm um índice derivado de sua ordem? A verdade é que para usar dicionários fornecemos também nossa própria maneira de indexar os elementos, que não pressupõe uma ordem numérica. Os dicionários são estruturas mais sofisticadas que as sequências, já que eles armazenam pares chave-valor, ou seja, **mapeamentos**.
 
-Cada elemento de um dicionário será na verdade um par chave-valor. Conceitualmente, os dicionários consistem de vários mapeamentos formados por pares de chave-valor, onde cada **valor** é referenciado através de sua **chave**. Portanto, para buscar um elemento em um dicionário, basta utilizar a chave associada ao mesmo. 
+Cada elemento de um dicionário será na verdade um par chave-valor. Conceitualmente, os dicionários consistem de vários mapeamentos formados por pares de chave-valor, onde cada **valor** é referenciado através de sua **chave**. Portanto, para buscar um elemento em um dicionário, basta utilizar a chave associada ao mesmo.
 
 O vídeo a seguir apresenta mais detalhes e como manipular dicionários. [Introdução aos Dicionários](https://youtu.be/s_t18KcJ9Fw)
 
@@ -202,7 +200,7 @@ Para adicionar um novo elemento, como arroz, por exemplo, basta criar uma nova c
 Acessando o valor contido em `produtos`, podemos ver que agora o par, aqui chamado de **item**, (arroz, 6.9) pertence ao dicionário.
 
 ```python
->>> produtos 
+>>> produtos
 {'farinha': 3.0, 'feijão': 5.0, 'leite': 4.25,  'açúcar': 2.49, 'arroz': 6.9}
 ```
 
@@ -249,7 +247,7 @@ Não podemos usar listas como chaves, mas estas podem ser utilizadas como valore
 
 Já as tuplas podem ser utilizadas como chaves.
 
-**Exemplo:** Podemos trabalhar com um dicionário de localização de cidades ou pontos de interesse. As localizações serão representadas por uma tupla de 2 elementos, latitude e longitude, recuperadas a partir de um gps. Cada um desses elementos, por sua vez, é também uma tupla (com três elementos). 
+**Exemplo:** Podemos trabalhar com um dicionário de localização de cidades ou pontos de interesse. As localizações serão representadas por uma tupla de 2 elementos, latitude e longitude, recuperadas a partir de um gps. Cada um desses elementos, por sua vez, é também uma tupla (com três elementos).
 Considerando a latitude e a longitude da localização da cidade do Rio de Janeiro (informação disponível em http://www.rio.rj.gov.br/web/riotur/caracteristicas-geograficas):
 
 ```python
@@ -274,6 +272,6 @@ Dicionários são **mutáveis** e cada **chave é única**, não é possível te
 
 ## Prática em Programação
 
-Após concluir as etapas anteriores deste roteiro, faça as atividades práticas desta aula, disponíveis no Google Classroom da turma. 
+Após concluir as etapas anteriores deste roteiro, faça as atividades práticas desta aula, disponíveis no Google Classroom da turma.
 
 Até a próxima aula!
