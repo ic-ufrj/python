@@ -1,4 +1,4 @@
-#baseURL = 'http://example.org/'
+baseURL = 'https://hugomg.github.io/python-ufrj/'
 languageCode = 'pt_BR'
 title = 'Python UFRJ'
 theme = 'relearn'
