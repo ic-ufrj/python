@@ -32,7 +32,7 @@ Sabemos como criar as diferentes funções que vão realizar cada parte da taref
 
 **Observação:** Quando escrevemos a chamada de uma função qualquer diretamente no módulo (ou seja, no arquivo onde estão as definições de função), **a função chamada é executada quando damos o Run do arquivo, mas não tem seu resultado visível no shell**. Você pode experimentar com um arquivo de laboratório qualquer. Altere o arquivo incluindo uma chamada válida para uma das funções do arquivo. Você não verá o retorno da função no shell, mas ela foi executada. Se você alterar a chamada para algo inválido, tal como número de argumentos diferente do número de parâmetros da função, você verá que o interpretador Python realmente tentou executar a função chamada.
 
-O nome de função “main” tem um papel especial para o Python, assim como para outras linguagens de programação, sendo entendida como a função que será o ponto de partida para a execução do código. Quando um código tem função main, isto significa que o programador pensou em um cenário de uso completo onde o usuário, ao acionar a função main, terá todo um conjunto de funcionalidades para resolver um problema, o que inclui maneiras de escolher as funcionalidades que deseja usar, interface adequada para fornecer os dados de entrada e ver os resultados gerados. É quando o código recebe o nome de **programa**, **aplicação** ou **aplicativo**. 
+O nome de função "main" tem um papel especial para o Python, assim como para outras linguagens de programação, sendo entendida como a função que será o ponto de partida para a execução do código. Quando um código tem função main, isto significa que o programador pensou em um cenário de uso completo onde o usuário, ao acionar a função main, terá todo um conjunto de funcionalidades para resolver um problema, o que inclui maneiras de escolher as funcionalidades que deseja usar, interface adequada para fornecer os dados de entrada e ver os resultados gerados. É quando o código recebe o nome de **programa**, **aplicação** ou **aplicativo**. 
 
 A função main possui um comportamento diferente também quanto ao recebimento de argumentos, mas não vamos ver todos os detalhes disso agora. Para todos os efeitos, nos nossos exemplos, usaremos a função main sem parâmetros. Por causa disso, foi necessário definir todos os dados do experimento diretamente na função main. Para mudar qualquer informação, o código precisará ser editado, alterando os valores das variáveis desejadas. Abaixo você pode ver o código da função e o lugar onde os dados foram explicitamente colocados:
 
@@ -66,7 +66,7 @@ Para mostrar informações ao usuário, o Python oferece uma função de escrita
 Algumas observações importantes sobre o uso do print:
 
 * Por questões de boas práticas de programação, não usar print dentro de funções que retornam valor (efeito colateral).
-* Além disso, o comando `return print (‘alguma coisa’)` não retorna nada, pois retorna o resultado da função print, que é `None` (nada). Essa linha de código está errada!  Se você quer que a função retorne `‘alguma coisa’`, tem que fazer apenas `return ‘alguma coisa’`
+* Além disso, o comando `return print ('alguma coisa')` não retorna nada, pois retorna o resultado da função print, que é `None` (nada). Essa linha de código está errada!  Se você quer que a função retorne `'alguma coisa'`, tem que fazer apenas `return 'alguma coisa'`
 
 É bastante útil saber um pouco sobre formatação de strings para fazer melhor uso do print. O Python oferece algumas maneiras de fazer isso. Vamos ver bem rapidamente o uso da função str.format para formatar strings:  `str.format(formatString, p0, p1, ..., )` , retorna uma string formatada segundo a formatString,  contendo os dados indicados em p0, p1, ... 
 
@@ -146,7 +146,7 @@ A função **input** lê dados do usuário e para isto ele temporariamente conge
 **Atenção:** Não use a função input dentro de funções que não sejam específicas para entrada de dados. As entradas para uma função devem vir pelos parâmetros. Isso é essencial para que possamos seguir a arquitetura de software em camadas, onde a interface está claramente separada das funções de serviço. 
 
 
-**Atividade:** Vamos agora treinar um pouco com exercícios de fixação. Responda as perguntas da atividade “Funções print e input”. Fique atento ao prazo de entrega dessa atividade!
+**Atividade:** Vamos agora treinar um pouco com exercícios de fixação. Responda as perguntas da atividade "Funções print e input". Fique atento ao prazo de entrega dessa atividade!
 
 ## Coordenação da interface com as funções de serviço na função main
 
@@ -158,7 +158,7 @@ Agora já temos todos os elementos que precisamos para a  produção de um progr
 
 **Atividade (sem entrega):** Faça o download dos programas apresentados nos vídeos anteriores e execute-os no IDLE, procurando visualizar em paralelo o código sendo executado e o comportamento da interface no shell. Procure passar dados válidos e inválidos e verifique o comportamento do programa em cada caso. 
 
-**Atividade:** Faça o download do programa disponibilizado para o exemplo do “laboratório de física” (o arquivo se chama “laboratório_fisica_interface_simples_a_completar.py”), visto nesta aula. O código foi disponibilizado junto com este roteiro. Seguindo o padrão de arquitetura que separa a interface das funções de serviço, neste programa, as chamadas para as funções de entrada e saída de dados (input e print) estão dentro da função main. Porém faltam algumas! Complete as que estão faltando (indicadas nos comentários do código) de forma a produzir o seguinte efeito quando o usuário utiliza:
+**Atividade:** Faça o download do programa disponibilizado para o exemplo do "laboratório de física" (o arquivo se chama "laboratório_fisica_interface_simples_a_completar.py"), visto nesta aula. O código foi disponibilizado junto com este roteiro. Seguindo o padrão de arquitetura que separa a interface das funções de serviço, neste programa, as chamadas para as funções de entrada e saída de dados (input e print) estão dentro da função main. Porém faltam algumas! Complete as que estão faltando (indicadas nos comentários do código) de forma a produzir o seguinte efeito quando o usuário utiliza:
 
 **TODO transformar em copi;avel**
 
