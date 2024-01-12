@@ -2,7 +2,6 @@ baseURL = 'https://hugomg.github.io/python-ufrj'
 languageCode = 'pt_BR'
 title = 'Python UFRJ'
 theme = 'relearn'
-canonifyURLs = true
 
 [markup.goldmark.renderer]
     # Permite incluir tags HTML como <sup></sup>
