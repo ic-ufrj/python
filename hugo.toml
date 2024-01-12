@@ -31,10 +31,10 @@ theme = 'relearn-5.23.2'
 
     # Estes parâmetros mexem em coisas visíveis
     themeVariant = 'zen-light'
-    disableLandingPageButton = true
     disableSearch = true
     ordersectionsby = 'linktitle'
     alwaysopen = true
     highlightWrap = false # pois Python depende de identação
     disableInlineCopyToClipBoard = true
     disableHoverBlockCopyToClipBoard = false
+    landingPageName = "<i class='fas fa-home'></i> Início"
