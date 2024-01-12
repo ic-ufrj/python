@@ -146,7 +146,8 @@ Já as tuplas devem ser usadas em situações em que não há necessidade de adi
 >> ("sábado", "domingo")
 ```
 
-Fatiamento de dados iteráveis
+## Fatiamento de dados iteráveis
+
 As listas, assim como as strings e as tuplas, podem ser fatiadas gerando sublistas. A operação de fatiamento é igual para strings, tuplas e listas: utilizando-se os colchetes após o nome da lista. Dentro do colchete definimos a posição inicial, a posição final (não inclusiva) e alternativamente um fator de incremento e decremento (passo), separados por dois pontos. Ou seja: `lista[inicio:fim:passo]`.
 
 ```python
