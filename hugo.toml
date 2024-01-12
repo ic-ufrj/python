@@ -3,6 +3,12 @@ languageCode = 'pt_BR'
 title = 'Python UFRJ'
 theme = 'relearn'
 
+[markup.highlight]
+    # Cor do syntax highlighting color
+    # Escolha uma compatível com o themeVariant do Relearn:
+    # ambos temas claros ou ambos temas escuros
+    style =  'abap'
+
 [markup.goldmark.renderer]
     # Permite incluir tags HTML como <sup></sup>
     # Também é necessário para os plugins mermaid e mathjax
@@ -13,11 +19,13 @@ theme = 'relearn'
     # Configuração do tema (Relearn)
     # https://mcshelby.github.io/hugo-theme-relearn/basics/configuration/index.html
 
-    # Estes parametros afetam tags <meta>
+    # Estes parâmetros afetam tags <meta>
     author.name = 'Instituto de Computação'
     description = 'Material do curso Computação I em Python'
 
-    themeVariant = 'blue'
+    # Estes parâmetros mexem em coisas visíveis
+    themeVariant = 'zen-light'
+    #themeVariant = 'blue'
     disableLandingPageButton = true
     disableSearch = true
     ordersectionsby = 'linktitle'
