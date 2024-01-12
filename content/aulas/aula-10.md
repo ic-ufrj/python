@@ -35,7 +35,8 @@ O nome de função "main" tem um papel especial para o Python, assim como para o
 A função main possui um comportamento diferente também quanto ao recebimento de argumentos, mas não vamos ver todos os detalhes disso agora. Para todos os efeitos, nos nossos exemplos, usaremos a função main sem parâmetros. Por causa disso, foi necessário definir todos os dados do experimento diretamente na função main. Para mudar qualquer informação, o código precisará ser editado, alterando os valores das variáveis desejadas. Abaixo você pode ver o código da função e o lugar onde os dados foram explicitamente colocados:
 
 **TODO: transformar isso em código copiável**
-![Programa principal para realização dos cálculos do laboratório de cinemática](/python-ufrj/aula10/image5.png)
+
+![Programa principal para realização dos cálculos do laboratório de cinemática](image5.png)
 
 Quando o usuário final não é o próprio programador, fica bem ruim ele ter que abrir o código para fazer alterações diretamente quando deseja informar os valores com os quais o programa vai trabalhar. Temos que pensar que o usuário final de um programa normalmente não quer se preocupar com a sintaxe esperada pela linguagem para cada tipo de dados que ele precisa fornecer para o programa. Por exemplo, se eu preciso fornecer uma lista de números, não preciso saber que uma lista precisa estar entre colchetes, ou se forneço um nome, não preciso colocar o nome entre aspas…
 
@@ -127,12 +128,10 @@ Podemos usar códigos específicos para definir o formato dos dados a serem inse
 
 Todos os dados float abaixo foram formatados com o código `{6.2f}`:
 
-![Exemplo de formato {6.2f}](/python-ufrj/aula10/image4.png)
-![Exemplo de formato {6.2f}](/python-ufrj/aula10/image3.png)
+![Exemplo de formato {6.2f}](image4.png)
+![Exemplo de formato {6.2f}](image3.png)
 
 Fonte: https://www.python-course.eu/python3_formatted_output.php
-
-
 
 2.2 Entrada de dados
 Para a entrada de dados durante a execução, podemos utilizar a função input. Veja no vídeo abaixo como utilizar a função input e como ela nos possibilita ler dados diferentes, inseridos diretamente pelo usuário, a cada execução de nosso código.
@@ -160,7 +159,7 @@ Agora já temos todos os elementos que precisamos para a  produção de um progr
 
 **TODO transformar em copi;avel**
 
-![Execução lab física simples](/python-ufrj/aula10/image1.png)
+![Execução lab física simples](image1.png)
 
 ## Prática em Programação
 
