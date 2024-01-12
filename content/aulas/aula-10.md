@@ -4,7 +4,7 @@ title: "10. Interação com usuário e programa principal"
 
 No curso introdutório de computação, focamos no desenvolvimento de códigos para implementar soluções para pequenos problemas computacionais. Até agora, desenvolvemos várias funções individuais para realizar cálculos específicos, mas ainda não sabemos juntar essas funções para desenvolver um programa aplicativo. Para desenvolver um aplicativo bem simples ainda precisamos de duas coisas:
 
-1. fazer com que o código Python interaja com o usuário (pedir dados e fornecer respostas em  formatos que sejam úteis para o usuário); e
+1. Fazer com que o código Python interaja com o usuário (pedir dados e fornecer respostas em  formatos que sejam úteis para o usuário); e
 2. Projetar código que articule estas partes menores e coordene as funcionalidades com a interação com o usuário.
 
 Existem várias alternativas tanto para (1) quanto para (2). Nosso objetivo para este curso é conseguir entender os conceitos básicos acerca destes temas e conseguir trabalhar com as opções mais simples que o Python oferece para interface com o usuário (1) e  projeto de aplicações (2).
@@ -25,8 +25,8 @@ Apesar de serem menos usadas atualmente do que outras opções mais sofisticadas
 Voltemos então para os pequenos programas que queremos desenvolver nesta disciplina.
 Sabemos como criar as diferentes funções que vão realizar cada parte da tarefa, e agora precisamos de uma função que coordene a execução das diversas funções necessárias para a execução da tarefa. Em Python usa-se como convenção uma função especial que tem especificamente este objetivo, chamada função principal, ou main(). Essa função coordenadora é uma espécie de maestro. Sua sintaxe é parecida com a de qualquer outra função, mas o seu papel é diferente. Vejamos um exemplo no vídeo a seguir.
 
-
-**Vídeo:** [Laboratório de Física](https://youtu.be/bKybkyXL-Xg)
+<!-- Função principal (main) -->
+{{< youtube bKybkyXL-Xg >}}
 
 **Observação:** Quando escrevemos a chamada de uma função qualquer diretamente no módulo (ou seja, no arquivo onde estão as definições de função), **a função chamada é executada quando damos o Run do arquivo, mas não tem seu resultado visível no shell**. Você pode experimentar com um arquivo de laboratório qualquer. Altere o arquivo incluindo uma chamada válida para uma das funções do arquivo. Você não verá o retorno da função no shell, mas ela foi executada. Se você alterar a chamada para algo inválido, tal como número de argumentos diferente do número de parâmetros da função, você verá que o interpretador Python realmente tentou executar a função chamada.
 
@@ -78,7 +78,8 @@ De forma geral, uma interface textual se comunica com o usuário em um esquema d
 
 Para mostrar informações ao usuário, o Python oferece uma função de escrita na interface textual, chamada print. Nos nossos exemplos, essa interface textual é a janela do shell. Veja o vídeo abaixo e entenda como usamos a função print para escrever saídas impressas em texto na tela.
 
-**Vídeo:** [Saída de dados: print](https://youtu.be/ORK_YY7k-NQ)
+<!-- Comando print -->
+{{< youtube ORK_YY7k-NQ >}}
 
 Algumas observações importantes sobre o uso do print:
 
@@ -154,7 +155,8 @@ Fonte: https://www.python-course.eu/python3_formatted_output.php
 2.2 Entrada de dados
 Para a entrada de dados durante a execução, podemos utilizar a função input. Veja no vídeo abaixo como utilizar a função input e como ela nos possibilita ler dados diferentes, inseridos diretamente pelo usuário, a cada execução de nosso código.
 
-**Video:** [A função input](https://youtu.be/9HiEOprX298)
+<!-- Entrada de dados: input -->
+{{< youtube 9HiEOprX298 >}}
 
 A função **input** lê dados do usuário e para isto ele temporariamente congela a execução do código, esperando a resposta do usuário até que a tecla Enter seja acionada. É possível passar uma mensagem na forma de uma string, que é impressa na tela, antes que a execução fique em espera. Assim, o usuário fica sabendo que ação o programa está esperando dele para continuar a sua execução.
 
@@ -167,9 +169,11 @@ A função **input** lê dados do usuário e para isto ele temporariamente conge
 
 Agora já temos todos os elementos que precisamos para a  produção de um programa completo! Veja a seguir dois exemplos:
 
-**Video:** [Programinha para gerar uma lista de números aleatórios](https://youtu.be/-Pvdas8RIjw)
+<!-- Programinha para gerar números aleatórios -->
+{{< youtube -Pvdas8RIjw >}}
 
-**Vídeo:** [Programa para cálculo de soma e subtração de matrizes](https://youtu.be/a347iRjfH4I)
+<!-- Programa para realizar soma e subtração de matrizes -->
+{{< youtube a347iRjfH4I >}}
 
 **Atividade (sem entrega):** Faça o download dos programas apresentados nos vídeos anteriores e execute-os no IDLE, procurando visualizar em paralelo o código sendo executado e o comportamento da interface no shell. Procure passar dados válidos e inválidos e verifique o comportamento do programa em cada caso.
 
