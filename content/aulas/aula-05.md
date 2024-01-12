@@ -7,8 +7,7 @@ Na aula anterior estudamos os tipos de dados string e tupla. Nesta aula veremos 
 Nova ferramenta: A partir desta aula vamos trabalhar com mais uma ferramenta: Python Tutor. É uma ferramenta online e gratuita. Python Tutor ajuda a visualizar uma abstração do que está acontecendo na memória ao longo da execução de um código em Python. O que podemos visualizar com Python Tutor é muito similar ao teste de mesa, com a diferença de que ela faz a simulação da execução para nós. A vantagem, é que quando estamos com algum conceito errado na cabeça, ela ajuda, mostrando que o comportamento não é o que esperávamos, e é mais rápida. Mas ela não substitui o teste de mesa, no sentido que, se não somos capazes de simular a execução nós mesmos, teremos muita dificuldade de corrigir os erros que aparecerão no código. Ela será especialmente útil a partir de agora que nossos códigos estão ficando mais complexos e com a introdução dos tipos de dados mutáveis.
 Veja como usar a ferramenta no vídeo:
 
-<!-- Python tutor -->
-{{< youtube 7-MSDcyDjLk >}}
+{{< youtube id="7-MSDcyDjLk" title="Python tutor" >}}
 
 Depois de assistir, experimente a ferramenta com os exemplos desse roteiro. Acesse o Python Tutor em:
 
@@ -52,8 +51,7 @@ False
 
 No vídeo a seguir você vai ver uma apresentação do tipo lista.
 
-<!-- Introdução às listas -->
-{{< youtube 6h8oZBzXoBM >}}
+{{< youtube id="6h8oZBzXoBM" title="Introdução às listas" >}}
 
 ## Mutabilidade e Imutabilidade
 
@@ -132,8 +130,7 @@ Nesse caso, o valor [0,2,3] deixou de existir, pois internamente, na memória do
 
 Vamos conferir esses diferentes comportamentos no Python Tutor neste vídeo:
 
-<!-- Manipulação de iteráveis no Tutor -->
-{{< youtube O2ZuOQyNuWU >}}
+{{< youtube id="O2ZuOQyNuWU" title="Manipulação de iteráveis no Tutor" >}}
 
 A lista é um tipo de dado mutável. Isso significa que podem ser atribuídos novos valores a uma lista existente sem uma nova lista que seja criada. A mesma lista inicial continua sendo utilizada, agora, com novos valores associados. É um tipo de dados muito útil em situações onde o valor associado a uma variável deve evoluir ao longo da execução.
 
@@ -161,8 +158,7 @@ Neste exemplo, foi criada uma sublista da lista `numeros` chamada `alguns_numero
 
 O vídeo a seguir apresenta de forma detalhada o fatiamento de listas. Você pode observar que o funcionamento é exatamente o mesmo do que tínhamos visto para strings e tuplas.
 
-<!-- Fatiamento de listas -->
-{{< youtube 7gSq8kNx1_M >}}
+{{< youtube id="7gSq8kNx1_M" title="Fatiamento de listas" >}}
 
 O Python permite o uso do comando de atribuição para fatias de listas. Ficou curioso? Você pode pesquisar mais sobre isso na internet  ;-). Temos também um vídeo que aborda esse assunto, para ajudar a matar a curiosidade: Atribuição a fatias.
 
@@ -182,8 +178,7 @@ Cada elemento de um dicionário será na verdade um par chave-valor. Conceitualm
 
 O vídeo a seguir apresenta mais detalhes e como manipular dicionários.
 
-<!-- Introdução aos Dicionários -->
-{{< youtube s_t18KcJ9Fw >}}
+{{< youtube id="s_t18KcJ9Fw" title="Introdução aos Dicionários">}}
 
 Suponha que você está desenvolvendo um programa para uma grande rede de supermercados. Nesse supermercado, cada item tem um preço associado a ele. Como você faria para armazenar os preços de cada produto dado que só sabemos o nome do mesmo quando chegamos ao caixa? A melhor forma de armazenar essas informações é em um dicionário!
 
