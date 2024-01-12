@@ -34,9 +34,27 @@ O nome de função "main" tem um papel especial para o Python, assim como para o
 
 A função main possui um comportamento diferente também quanto ao recebimento de argumentos, mas não vamos ver todos os detalhes disso agora. Para todos os efeitos, nos nossos exemplos, usaremos a função main sem parâmetros. Por causa disso, foi necessário definir todos os dados do experimento diretamente na função main. Para mudar qualquer informação, o código precisará ser editado, alterando os valores das variáveis desejadas. Abaixo você pode ver o código da função e o lugar onde os dados foram explicitamente colocados:
 
-**TODO: transformar isso em código copiável**
+```python
+def main():
+    ''' programa principal para realização dos cálculos do laboratório de cinemática'''
 
-![Programa principal para realização dos cálculos do laboratório de cinemática](image5.png)
+    # dados do experimento
+    velocidade_inicial = 10.00
+    aceleracao = 0.50
+    tempos = [0.00, 1.00, 2.00, 5.00, 10.00, 15.00, 30.00]
+    velocidades_esperadas = calcula_esperadas(velocidade_inicial, aceleracao, tempos)
+
+    # resultados observados
+    velocidades_observadas = [10.00, 11.10, 12.00, 13.05, 14.00, 15.76, 16.00]
+
+    # cálculo dos erros
+    erros = erro_ao_longo_to_tempo(velocidades_esperadas, velocidades_observadas, tempos)
+
+    # retorno(?)
+    return erros
+
+main()
+```
 
 Quando o usuário final não é o próprio programador, fica bem ruim ele ter que abrir o código para fazer alterações diretamente quando deseja informar os valores com os quais o programa vai trabalhar. Temos que pensar que o usuário final de um programa normalmente não quer se preocupar com a sintaxe esperada pela linguagem para cada tipo de dados que ele precisa fornecer para o programa. Por exemplo, se eu preciso fornecer uma lista de números, não preciso saber que uma lista precisa estar entre colchetes, ou se forneço um nome, não preciso colocar o nome entre aspas…
 
@@ -157,9 +175,25 @@ Agora já temos todos os elementos que precisamos para a  produção de um progr
 
 **Atividade:** Faça o download do programa disponibilizado para o exemplo do "laboratório de física" (o arquivo se chama "laboratório_fisica_interface_simples_a_completar.py"), visto nesta aula. O código foi disponibilizado junto com este roteiro. Seguindo o padrão de arquitetura que separa a interface das funções de serviço, neste programa, as chamadas para as funções de entrada e saída de dados (input e print) estão dentro da função main. Porém faltam algumas! Complete as que estão faltando (indicadas nos comentários do código) de forma a produzir o seguinte efeito quando o usuário utiliza:
 
-**TODO transformar em copi;avel**
+```
+Velocidade inicial (m/s): 2
+Aceleração constante (m/s²): .5
+Tempos (Digite enter quando terminar):
+ - Tempo (s): 1
+ - Tempo (s): 2
+ - Tempo (s): 3
+ - Tempo (s):
+Velocidades observadas (Espera-se 3 velocidades):
+ - Velocidade (m/s) em 1.0s: 2.2
+ - Velocidade (m/s) em 2.0s: 2.5
+ - Velocidade (m/s) em 3.0s: 3
 
-![Execução lab física simples](image1.png)
+
+Comparação de velocidades (v0 = 2.0 m/s; a = 0.5 m/s²):
+ - Velocidades esperadas  (m/s): [    2.50,     3.00,     3.50]
+ - Velocidades observadas (m/s): [    2.20,     2.50,     3.00]
+ - Erros                    (%): [  12.00%,   16.67%,   14.29%]
+```
 
 ## Prática em Programação
 
