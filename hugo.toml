@@ -2,9 +2,11 @@ baseURL = 'https://hugomg.github.io/python-ufrj'
 languageCode = 'pt_BR'
 title = 'Python UFRJ'
 
-# Este tema está deszipado e incluido neste repositório
-# Git submodules são uma dor de cabeça. NÃO USE
-# Achei melhor não usar Go modules pois precisa instar Go.
+
+# Para instalar o tema, eu deszipei dentro da pasta themes/
+# As alternativas seriam usar git submodule, ou Go modules.
+# Git submodules são uma fonte infinita de dor e sofrimento; evite.
+# Go modules precisariam de instalar o runtime Go na máquina.
 theme = 'relearn-5.23.2'
 
 [markup.highlight]
@@ -29,7 +31,6 @@ theme = 'relearn-5.23.2'
 
     # Estes parâmetros mexem em coisas visíveis
     themeVariant = 'zen-light'
-    #themeVariant = 'blue'
     disableLandingPageButton = true
     disableSearch = true
     ordersectionsby = 'linktitle'

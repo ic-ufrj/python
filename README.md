@@ -9,13 +9,9 @@ Instalação
 ----------
 
 O primeiro passo é clonar este repositório.
-Preste atenção que é preciso clonar os **submódulos** também.
 
 ```
 git clone https://github.com/hugomg/python-ufrj
-cd python-ufrj
-git submodule init
-git submodule update
 ```
 
 O segundo passo é instalar o Hugo. O tema que estamos usando exige uma versão
