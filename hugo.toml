@@ -1,7 +1,11 @@
 baseURL = 'https://hugomg.github.io/python-ufrj'
 languageCode = 'pt_BR'
 title = 'Python UFRJ'
-theme = 'relearn'
+
+# Este tema está deszipado e incluido neste repositório
+# Git submodules são uma dor de cabeça. NÃO USE
+# Achei melhor não usar Go modules pois precisa instar Go.
+theme = 'relearn-5.23.2'
 
 [markup.highlight]
     # Cor do syntax highlighting color
