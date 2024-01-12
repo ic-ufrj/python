@@ -35,8 +35,8 @@ porém não dá pra abrir esses htmls direto no browser (a página fica quebrada
 sem os menus e sem o CSS adequado)
 
 
-# Editando
-----------
+Editando
+--------
 
 As duas pastas que você precisa mexer são a pasta `content` e a `static`.
 A content contém o texto do site em markdown e a static contém imagens, etc.
