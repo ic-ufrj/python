@@ -24,3 +24,5 @@ canonifyURLs = true
     ordersectionsby = 'linktitle'
     alwaysopen = true
     highlightWrap = false # pois Python depende de identação
+    disableInlineCopyToClipBoard = true
+    disableHoverBlockCopyToClipBoard = false
