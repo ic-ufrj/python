@@ -71,42 +71,80 @@ O contador é bem representado por uma variável do tipo inteiro. Já o tipo de 
 
 Veja outras possibilidades nos exemplos abaixo:
 
-### Exemplo 1: Qual é a última vogal de uma palavra dada?
+**Exemplo 1**: Qual é a última vogal de uma palavra dada?
+
+```python
+def ultima_vogal(palavra):
+    '''retorna a ultima vogal da palavra
+    str->str'''
+    i = 0
+    vogal = ''
+    while i < len(palavra):
+        if palavra[i] in 'AEIOUaeiou':
+            vogal = palavra[i]
+        i = i + 1
+    return vogal
+```
 
 Neste exemplo, a variável `i` está fazendo o papel de um contador. Não temos nenhum acumulador sendo usado, pois este conceito não foi necessário para a construção da resposta, que é diretamente a última vogal encontrada.
 
-### Exemplo 2: Qual o número de vogais em uma string.
+**Exemplo 2**: Qual o número de vogais em uma string.
+
+```python
+def quantidade_vogais(texto):
+    '''devolve a quantidade de vogais presentes no texto.
+    str --> int'''
+    qtd_vogais = 0
+    i = 0
+    while i < len(texto):
+        if texto[i] in 'AEIOUaeiou':
+            qtd_vogais = qtd_vogais + 1
+        i = i + 1
+    return qtd_vogais
+```
 
 Neste exemplo, temos tanto um contador, implementado pela variável `i`, quanto um acumulador, implementado por `qtd_vogais`. A cada iteração do laço, no momento da avaliação da condição de parada, `i` indica quantas posições do texto já foram verificadas. Ao final da execução do laço, a variável `qtd_vogais` registra quantas vogais foram identificadas no texto.
 
-### Exemplo 3: Qual a sequência de vogais de um texto?
+**Exemplo 3**: Qual a sequência de vogais de um texto?
+
+```python
+def todasasvogais(texto):
+    '''retorna uma string com as vogais que apareceram em um texto,
+    na mesma sequencia que apareceram
+    str->str'''
+    i = 0
+    vogais = ''
+    while i < len(texto):
+        if texto[i] in 'AEIOUaeiou':
+            vogais = vogais + texto[i]
+        i = i + 1
+    return vogais
+```
 
 Neste exemplo temos um contador e um acumulador. Você consegue identificá-los? O acumulador é do tipo string. 
 
-### Atividade: Vamos agora treinar um pouco com exercícios de fixação. Responda as perguntas da atividade “Contadores e acumuladores”. Fique atento ao prazo de entrega dessa atividade!
+**Atividade**: Vamos agora treinar um pouco com exercícios de fixação. Responda as perguntas da atividade “Contadores e acumuladores”. Fique atento ao prazo de entrega dessa atividade!
 
-## Mais exemplos de uso do comando while
+Veremos agora outros exemplos de código com o comando `while`. Você também verá o uso da função `randint` para manipular valores randômicos (aleatórios). 
 
-Veremos agora outros exemplos de código com o comando while. Você também verá o uso da função `randint` para manipular valores randômicos (aleatórios). 
+{{< youtube id="fc8Hr80_39s" title="Mais exemplos de uso do comando while" >}} 
 
-**Vídeo: Mais exemplos de uso do comando while**
-
-Observação: O `random` é um módulo do Python dedicado à geração de números aleatórios. Ele tem várias funções interessantes, além da função `randint` abordada no vídeo. Vale a pena olhar mais sobre este módulo (usando o `help` no IDLE ou olhando a documentação na internet), pode ser útil em outras disciplinas do seu curso, não apenas Computação 1. 
+**Observação**: O `random` é um módulo do Python dedicado à geração de números aleatórios. Ele tem várias funções interessantes, além da função `randint` abordada no vídeo. Vale a pena olhar mais sobre este módulo (usando o `help` no IDLE ou olhando a documentação na internet), pode ser útil em outras disciplinas do seu curso, não apenas Computação 1. 
 
 ## Loop infinito e retorno precoce
 
-O próximo vídeo mostrará os erros mais comuns que podem ocorrer ao se utilizar o comando while. É importante conhecer esses erros, saber os seus resultados e entender como evitá-los.
+O próximo vídeo mostrará os erros mais comuns que podem ocorrer ao se utilizar o comando `while`. É importante conhecer esses erros, saber os seus resultados e entender como evitá-los.
 
-**Vídeo: Erros comuns no uso do comando while**
+{{< youtube id="FXcwTyaqdXY" title="Erros comuns no uso do comando while" >}}
 
 No arquivo de códigos desta aula 7, você encontrará versões corretas e erradas de algumas das funções vistas ao longo deste roteiro de estudos. Execute-as no Python tutor para fixar seus conhecimentos sobre os conceitos desta aula e aprender a identificar os erros comuns no uso do comando while. Pense bem nos testes que você vai executar para identificar os erros das versões defeituosas. 
 
 Observações importantes: 
 - Quando pedimos para o computador executar um  laço infinito, ou seja, um laço cuja condição de parada nunca é verdadeira, parece que o interpretador está travado pois não aparece resposta nenhuma. Neste caso, você pode teclar a combinação de teclas Control+C para interromper forçadamente a execução.
-- Em alguns casos, no entanto, apesar do laço ser infinito em teoria, o fato dos dados que estamos usando no computador serem finitos,  pode levar a uma situação onde a condição de parada eventualmente é satisfeita, com a obtenção de uma resposta que, em geral, não faz muito sentido. É o caso do problema das populações que crescem. Temos a população A (popA) e a população B (popB)  e suas respectivas taxas de crescimento, e queremos saber quando popA alcança popB. Caso popA seja menor do que popB e sua taxa de crescimento seja também menor, a condição de parada (popA >= popB) nunca deveria ser verdade. Mas na realidade o tipo de dados float é finito, e quando as populações obtidas ultrapassarem o limite de valores representáveis pelo tipo float, essas variáveis receberão uma sequência de zeros e uns que é interpretada como infinito, por convenção. Quando ambas chegarem a esse valor, as populações serão consideradas iguais, levando à parada do laço e o retorno de algum valor que não representa o que o programador desejava. Fique atento!
+- Em alguns casos, no entanto, apesar do laço ser infinito em teoria, o fato dos dados que estamos usando no computador serem finitos,  pode levar a uma situação onde a condição de parada eventualmente é satisfeita, com a obtenção de uma resposta que, em geral, não faz muito sentido. É o caso do problema das populações que crescem. Temos a população A (popA) e a população B (popB)  e suas respectivas taxas de crescimento, e queremos saber quando popA alcança popB. Caso popA seja menor do que popB e sua taxa de crescimento seja também menor, a condição de parada (popA >= popB) nunca deveria ser verdade. Mas na realidade o tipo de dados float é finito, e quando as populações obtidas ultrapassarem o limite de valores representáveis pelo tipo float, essas variáveis receberão uma sequência de zeros e uns que é interpretada como **infinito**, por convenção. Quando ambas chegarem a esse valor, as populações serão consideradas iguais, levando à parada do laço e o retorno de algum valor que não representa o que o programador desejava. Fique atento!
 - Algumas ferramentas (não é o caso do IDLE) incluem o conceito de “time-out”,  ou seja, ela executa  por um determinado tempo e eventualmente “desiste” de continuar, encerrando a execução do código. O que será devolvido como resposta vai depender da ferramenta, nesse caso.
 
-### Atividade: Vamos agora treinar um pouco com exercícios de fixação. Responda as perguntas da atividade “Explorando o while”. Fique atento ao prazo de entrega dessa atividade!
+**Atividade**: Vamos agora treinar um pouco com exercícios de fixação. Responda as perguntas da atividade “Explorando o while”. Fique atento ao prazo de entrega dessa atividade!
 
 ## Prática em Programação
 
