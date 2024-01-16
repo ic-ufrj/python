@@ -116,8 +116,7 @@ O funcionamento destes operadores é explicado no vídeo:
 
 {{< youtube id="95W2Sdc0lsU" title="Operadores Aritméticos" >}}
 
-#### Exercício
-Vamos ver se você entendeu o que acabamos de ver. Considerando o que foi estudado sobre operadores aritméticos e sua ordem de precedência na linguagem Python, em que ordem seriam realizadas as operações das expressões abaixo? Faça as operações nessa ordem e anote o resultado.
+**Exercício**: Vamos ver se você entendeu o que acabamos de ver. Considerando o que foi estudado sobre operadores aritméticos e sua ordem de precedência na linguagem Python, em que ordem seriam realizadas as operações das expressões abaixo? Faça as operações nessa ordem e anote o resultado.
 1. 2 * 5 % 4 + 6 / 3 - 1
 2. 3 * 2 ** 2 + 1 * 5 - 4
 
@@ -129,7 +128,7 @@ O primeiro recurso do python que vamos aprender para fazer nossos módulos são 
 
 Na matemática, a intuição por trás da definição de uma função é a descrição de uma maneira de associar a cada valor da(s) entrada(s) um valor de resultado. Considere por exemplo a função f abaixo, que associa a cada número o seu dobro:
 
-$f(x) = 2 \cdot x$
+$$f(x) = 2 \cdot x$$
 
 A partir da descrição da função f, percebemos que ela tem apenas uma entrada, identificada pela letra x que aparece entre parênteses, ao lado do nome da função. Podemos aplicar a função f a diferentes valores de x para saber o valor que será obtido como resultado. Supondo que o domínio da função f são os números inteiros, podemos calcular o valor de f, por exemplo, para os seguintes valores de x: 2, 100, -1. Temos que f(2) é 4, f(100) é 200, f(-1) é -2.
 
@@ -141,7 +140,7 @@ Agora, vamos usar o IDLE para codificar a função de exemplo “dobro”:
 
 {{< youtube id="rulx0w2_Jog" title="Codificando uma função em Python" >}}
 
-## Exercício: Função Sucessor em Python
+#### Exercício: Função Sucessor em Python
 
 Escreva uma função em Python que receba um número inteiro como entrada e retorne o sucessor desse número. Utilize o IDLE para codificar e testar sua função. Aproveite como exemplo o código que já foi escrito para a função dobro, disponível na sua sala de aula virtual.
 
@@ -151,7 +150,7 @@ Algo saiu errado? Nada mais normal! Veja se o vídeo a seguir te ajuda 😊
 
 Agora que você já viu como escrever uma função e como lidar com os possíveis erros que podem acontecer durante essa tarefa, é hora de exercitar.
 
-### Exercício: Funções em Python
+#### Exercício: Funções em Python
 
 1. Baixe o arquivo `soma.py`. Salve em seu computador na pasta que você está usando para guardar seus códigos deste curso (lembre-se de manter seus arquivos organizados para facilitar seus estudos e não se perder no futuro).
 2. Abra o IDLE. Use o menu superior do IDLE para abrir um arquivo e abra o arquivo `soma.py`.
