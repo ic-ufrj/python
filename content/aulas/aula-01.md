@@ -10,11 +10,11 @@ Este curso de introdução à programação é oferecido para estudantes de vár
 
 Assista ao vídeo porque aprender a programar.
 
-{{< youtube id="mHW1Hsqlp6A" title="Por que todos deveriam aprender a programar? LEGENDADO" >}}
+{{< youtube id="mHW1Hsqlp6A" title="Por que todos deveriam aprender a programar?" >}}
 
 Agora, convidamos você a assistir o vídeo de apresentação deste curso:
 
-{{< youtube id="LmLlBnxs4x4" title="1 - Introdução: apresentação" >}}
+{{< youtube id="LmLlBnxs4x4" title="Apresentação do curso" >}}
 
 ### Objetivos do curso
 O objetivo deste curso é o desenvolvimento das competências fundamentais da programação de computadores. Para tanto, vamos aprender muitos conceitos, porém principalmente, temos que praticar bastante para nos tornarmos competentes em:
@@ -37,11 +37,11 @@ Você sabe o que é um programa? Sabe a diferença entre programa e aplicativo (
 Veja agora alguns exemplos de problemas a serem resolvidos e algoritmos para resolver esses problemas.
 - **Primeiros algoritmos** - nesse vídeo falamos de dois problemas e chegamos a um algoritmo para a solução de cada um dos problemas. Ao final do segundo problema pedimos que proponha um problema similar, que se resolva da mesma maneira.
 
-{{< youtube id="1o2WbsiwdcY" title="1 - Introdução: algoritmos" >}}
+{{< youtube id="1o2WbsiwdcY" title="Introdução a algoritmos" >}}
 
 - **Primeiros algoritmos** - mais um exemplo - nesse outro vídeo estudamos um problema menos trivial, que exige um maior esforço de busca da solução.
 
-{{< youtube id="TN9oLmvvxnA" title="1 - Introdução: algoritmos - cont." >}}
+{{< youtube id="TN9oLmvvxnA" title="Introdução a algoritmos - cont." >}}
 
 ### Funcionamento do computador, Linguagem de programação e Execução de programas
 Para ter uma ideia melhor de como os programas são executados pelo computador, temos que ter um entendimento inicial de como o computador funciona.
@@ -88,21 +88,21 @@ Nos links abaixo estão instruções que podem te ajudar no processo de instala�
 
 Caso você não tenha conseguido instalar, peça ajuda à equipe de monitores ou ao seu professor. Consulte do vídeo tutorial de instalação do Python: 
 
-{{< youtube id="VGhJFcSxSvg" title="1- Instalando Python" >}}
+{{< youtube id="VGhJFcSxSvg" title="Instalando Python" >}}
 
 Uma vez instalado o Python, podemos abrir o programa IDLE, que vem com o Python, no seu computador. Basta usar a busca do sistema operacional, que geralmente está na barra de tarefas, na parte de baixo da tela do seu computador. Digite IDLE, e deve aparecer para você o link para abrir o programa de que estamos falando. Clique nele. Aí você está pronto para acompanhar as próximas etapas que vamos seguir para escrever seu primeiro código.
 
 Os monitores também prepararam um vídeo mostrando como abrir e começar a usar o IDLE. Ele está disponível aqui:
 
-{{< youtube id="p0pQ0k16XXQ" title="1 - Python - Ferramenta IDLE" >}}
+{{< youtube id="p0pQ0k16XXQ" title="Python - Ferramenta IDLE" >}}
 
 ### Operações aritméticas
 A primeira coisa que vamos aprender a fazer em Python são operações aritméticas. A forma de escrever (sintaxe) da linguagem Python para expressões aritméticas é semelhante à utilizada pelas calculadoras comuns. Escrevemos a expressão desejada intercalando operadores e operandos. Além dos números e dos sinais que representam cada um dos operadores, podemos usar também os parênteses para identificar trechos da fórmula que devem ser resolvidos primeiro.
 
 Os operadores aritméticos mais comuns da linguagem Python são os seguintes:
-- + (soma)
-- - (subtração)
-- * (multiplicação - atenção que é o símbolo de asterisco, não é o x)
+- \+ (soma)
+- \- (subtração)
+- \* (multiplicação - atenção que é o símbolo de asterisco, não é o x)
 - / (divisão)
 
 Para representar a operação de exponenciação (x elevado a y), o Python usa o operador:
@@ -114,7 +114,7 @@ Existem também dois operadores interessantes, derivados da operação de divis�
 
 O funcionamento destes operadores é explicado no vídeo:
 
-{{< youtube id="95W2Sdc0lsU" title="1 - Operadores Aritméticos" >}}
+{{< youtube id="95W2Sdc0lsU" title="Operadores Aritméticos" >}}
 
 #### Exercício
 Vamos ver se você entendeu o que acabamos de ver. Considerando o que foi estudado sobre operadores aritméticos e sua ordem de precedência na linguagem Python, em que ordem seriam realizadas as operações das expressões abaixo? Faça as operações nessa ordem e anote o resultado.
@@ -135,11 +135,11 @@ A partir da descrição da função f, percebemos que ela tem apenas uma entrada
 
 Relembradas as funções matemáticas, vamos agora falar sobre funções de programação: Assim como na matemática, o conceito de função em programação é a descrição de uma maneira de se obter um valor de resultado a partir dos valores das entradas. Porém na programação esta descrição segue um formato diferente da notação matemática. Veremos como isso acontece no Python. 
 
-{{< youtube id="f7_iUqGv_sc" title="1 - Escrevendo uma função em Python" >}}
+{{< youtube id="f7_iUqGv_sc" title="Escrevendo uma função em Python" >}}
 
 Agora, vamos usar o IDLE para codificar a função de exemplo “dobro”: 
 
-{{< youtube id="rulx0w2_Jog" title="1 - Codificando uma função em Python" >}}
+{{< youtube id="rulx0w2_Jog" title="Codificando uma função em Python" >}}
 
 ## Exercício: Função Sucessor em Python
 
@@ -163,8 +163,7 @@ Agora que você já viu como escrever uma função e como lidar com os possívei
 
 Agora que você já deu seus primeiros passos na escrita de código em Python, está na hora de se preparar para as atividades práticas que devem ser feitas essa semana. Assista o vídeo sobre a tarefa da programação:
 
-{{< youtube id="vY5RBEMaBb0" title="1 - A tarefa da programação" >}}
-
+{{< youtube id="vY5RBEMaBb0" title="A tarefa da programação" >}}
 
 ### Prática em Programação
 

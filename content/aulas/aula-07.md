@@ -1,181 +1,115 @@
 ---
-title: "01. Apresentação do curso"
+title: "07. Estrutura de repetição com teste de parada: While"
 ---
 
-Olá! Bem-vindo ao curso de introdução à programação da UFRJ. 😊 Este é o material de nossa primeira aula. Além de conhecer os objetivos e o formato do curso, essa primeira semana também será uma oportunidade para conhecer seu professor e alguns dos monitores das atividades práticas.
+Estamos escrevendo nossos códigos em Python no estilo modular de programação, onde definimos módulos, representados por funções em Python, para realizar tarefas específicas, e a articulação destas funções leva à realização de tarefas maiores. 
 
-Nós, da equipe de instrutores, também gostaríamos de conhecer um pouco mais sobre você, seus mecanismos de acesso ao material deste curso e sobre suas expectativas. Para isso, pedimos que preencha o pequeno formulário disponível na atividade “apresentação da turma” do google classroom.
+Para escrever nossas funções, usamos os recursos que o Python nos oferece: tipos de dados, operações, funções já prontas, variáveis, atribuição  e estruturas como a de seleção (IF). Nesta aula, veremos mais uma estrutura de programação: a estrutura de repetição (ou loop). 
 
-Este curso de introdução à programação é oferecido para estudantes de várias áreas dentro das ciências exatas e da terra da UFRJ. A programação é uma competência cada dia mais valiosa a todas as pessoas, e é muito importante para os universitários destas áreas.
 
-Assista ao vídeo porque aprender a programar.
+## Introdução a estruturas de repetição
 
-{{< youtube id="mHW1Hsqlp6A" title="Por que todos deveriam aprender a programar? LEGENDADO" >}}
+Estruturas de repetição, como o nome já evidencia, são estruturas que fazem repetições de tarefas de acordo com algum critério definido. Esse tipo de situação é bastante comum. Por exemplo, quando se deseja limpar uma superfície deve-se passar o pano com o material limpante até que a superfície esteja limpa. Ou seja, enquanto a superfície estiver suja, deve-se repetir a tarefa de passar o pano úmido.  
 
-Agora, convidamos você a assistir o vídeo de apresentação deste curso:
+No primeiro vídeo, falaremos das principais características das estruturas de repetição e de seu propósito na programação. 
 
-{{< youtube id="LmLlBnxs4x4" title="1 - Introdução: apresentação" >}}
+{{< youtube id="D8Pq4D6PsO8" title="Introdução às estruturas de repetição" >}}
 
-### Objetivos do curso
-O objetivo deste curso é o desenvolvimento das competências fundamentais da programação de computadores. Para tanto, vamos aprender muitos conceitos, porém principalmente, temos que praticar bastante para nos tornarmos competentes em:
-  - Identificação das informações relevantes de um problema e sua respectiva representação e manipulação na programação.
-  - Compreensão dos aspectos sintáticos e semânticos da linguagem de programação.
-  - Articulação dos comandos, estruturas de dados e estruturas básicas da programação para a construção de soluções para problemas simples.
-  - Modelagem e implementação de código modularizado para problemas não elementares.
-  - Construção de código organizado, reutilizável e legível, seguindo os princípios das boas práticas de programação.
+Agora vamos ver um exemplo de problema que só conseguimos tratar quando fazemos uso de repetições em nosso algoritmo.  No laboratório da aula 4 na Machine Teaching vimos o problema da filtragem, com o seguinte enunciado, que especificava que a tupla de entrada tinha que ter exatamente 4 elementos:
 
-**Fique atento**: A programação é uma atividade complexa, que envolve conhecimento, prática e proficiência. É imprescindível praticar muito! Além disso, receber bons fundamentos no estágio inicial é essencial para a capacitação de um programador. Procure sempre fontes confiáveis de informação, dando preferência a material produzido por instituições consolidadas nessa área, como por exemplo universidades e centros ou organizações de formação e ensino associados ao ministério da educação ou à CAPES.
+**Vale a pena ver de novo**: Faça uma função chamada `filtra_pares` que receba uma tupla com quatro elementos inteiros como argumento, e retorne uma nova tupla contendo apenas os elementos pares da tupla original, na mesma ordem em que se encontravam. Esse tipo de operação onde se selecionam elementos de um conjunto inicial que satisfazem uma determinada propriedade é bastante comum em computação, e se chama filtragem.
 
-## Conceitos iniciais
-Você sabe o que é um programa? Sabe a diferença entre programa e aplicativo (ou app)? Explore os links abaixo para ter um primeiro contato com definições destes conceitos, que são elementares para nosso curso. Você vai descobrir que, além dos conceitos de programa e aplicativo, outros conceitos como algoritmo e linguagem de programação vão aparecer de forma interligada. Ao fazer sua leitura do conteúdo abaixo, anote suas impressões e dúvidas, e aproveite a aula síncrona para conversar com seu professor e aprofundar seu entendimento.
+Se você não lembra do problema ou da solução ou se tem interesse em ouvir uma discussão sobre possíveis soluções para o problema, pode assistir esse vídeo.
 
-### Programa, Aplicativo e Algoritmo
-- [Programa de computador](https://escola.britannica.com.br/artigo/programa-de-computador/483487)
-- [Software aplicativo](https://pt.wikipedia.org/wiki/Software_aplicativo)
-- [Programa de computador](https://pt.wikipedia.org/wiki/Programa_de_computador)
+{{< youtube id="Y3yXrmIepvQ" title="Problema da filtragem com entrada de tamanho 4" >}}
 
-Veja agora alguns exemplos de problemas a serem resolvidos e algoritmos para resolver esses problemas.
-- **Primeiros algoritmos** - nesse vídeo falamos de dois problemas e chegamos a um algoritmo para a solução de cada um dos problemas. Ao final do segundo problema pedimos que proponha um problema similar, que se resolva da mesma maneira.
+E nesse próximo vídeo apresentamos a generalização do problema e da solução para tratar entradas com pelo menos um elemento, ou seja, com qualquer quantidade de elementos que não seja zero. Uma solução para este problema mais geral precisa fazer uso de estruturas de repetição.
 
-{{< youtube id="1o2WbsiwdcY" title="1 - Introdução: algoritmos" >}}
+{{< youtube id="kThQiEv6wfs" title="Problema da filtragem com entrada de tamanho livre" >}} 
 
-- **Primeiros algoritmos** - mais um exemplo - nesse outro vídeo estudamos um problema menos trivial, que exige um maior esforço de busca da solução.
+## Comando de repetição com teste de parada: while
 
-{{< youtube id="TN9oLmvvxnA" title="1 - Introdução: algoritmos - cont." >}}
+Agora que você já teve um primeiro contato com os tipos de problemas que queremos resolver e como estruturas de repetição são necessárias para resolvê-los, você verá, no próximo vídeo, quais são as semelhanças e diferenças entre o comando while e estrutura condicional if que você já conhece. 
 
-### Funcionamento do computador, Linguagem de programação e Execução de programas
-Para ter uma ideia melhor de como os programas são executados pelo computador, temos que ter um entendimento inicial de como o computador funciona.
+{{< youtube id="tGqPGO_qBy0" title="Comando while" >}} 
 
-Assista ao vídeo "Como funciona um computador (animação)": 
+Vamos  fazer agora o teste de mesa de um código contendo um comando while. No teste de mesa fazemos uma  simulação de execução do código, o que é uma forma poderosa para verificar o correto entendimento do funcionamento dos comandos utilizados. Já fizemos vários testes de mesa antes, mas agora, o fato de estarmos lidando com variáveis que a cada repetição podem mudar de valor, é preciso tomar um pouco mais de cuidado com como registrar a informação de maneira clara. Vamos ver isso no vídeo.
 
-{{< youtube id="RRBO9KYuN28" title="Como funciona um computador (animação) – Por dentro do computador" >}}
+{{< youtube id="QrjEPNJdu_k" title="Simulação de execução de código contendo um comando while" >}}
 
-Agora, leia um pouco mais sobre o assunto e sobre como um programa de computador pode ser executado em:
-- [Como funciona um programa de computador](https://woliveiras.com.br/posts/como-funciona-um-programa-de-computador/)
+Relembrando: para acessar a ferramenta Python tutor, mencionada no vídeo, use o link [Python Tutor](http://www.pythontutor.com/).
 
-Entenda melhor o conceito de linguagem de programação:
-- [O que é linguagem de programação?](https://universidadedatecnologia.com.br/o-que-e-linguagem-de-programacao/)
-- [Linguagens de programação. O que são e para que servem?](http://www.digitaldev.com.br/linguagens-de-programacao/)
+**Atividade**: Vamos agora treinar um pouco com exercícios de fixação. Responda as perguntas da atividade “While: primeiros passos”. Fique atento ao prazo de entrega dessa atividade!
 
-Agora você já sabe que programas são escritos em uma linguagem de programação, e que o computador, para executá-los, tem que saber como as instruções escritas na linguagem de programação são mapeadas para a sua linguagem própria, a linguagem de máquina. Duas maneiras de fazer isso são a compilação e a interpretação. Veja mais sobre elas em:
-- [Interpretadores, compiladores e tradutores](http://www.inf.ufsc.br/~j.barreto/cca/arquitet/arq4.htm)
-- [Qual a diferença entre código compilado e código interpretado?](https://youtu.be/fzNd_PD4_n4)
+## Contadores e acumuladores
 
-{{< youtube id="fzNd_PD4_n4" title="Qual a diferença entre código compilado e código interpretado?" >}}
+Vamos retomar o exemplo do exercício “filtra pares”. Você reparou que, para resolver esse problema no caso de uma tupla de qualquer tamanho, usamos duas variáveis que eram atualizadas a cada repetição? Uma delas para guardar o índice do elemento a ser verificado, e outra, para construir gradativamente a tupla de resposta. Essas duas estratégias de atualização de variáveis associadas à estrutura de repetição são bastante comuns, e recebem nomes especiais: **contadores** e **acumuladores**, respectivamente. 
 
-Neste curso, adotaremos a linguagem de programação Python. Ela é considerada uma excelente linguagem para iniciantes em programação, e também é uma linguagem amplamente utilizada com propósitos comerciais, acadêmicos e de pesquisa.
+Contadores e acumuladores são conceitos teóricos. Nas linguagens de programação não temos elementos sintáticos que correspondam a eles. Para o computador tanto contadores quanto acumuladores são simplesmente variáveis. Estes conceitos fazem no entanto diferença na idealização da construção do seu código. 
 
-Veja este artigo sobre as razões para se aprender a programar em Python:
-- [Por que aprender Python pode te levar mais longe na carreira!](https://becode.com.br/porque-aprender-python/)
+Um contador é uma variável criada normalmente com o intuito de contar quantas vezes alguma ação foi executada. Contadores são muitas vezes usados na condição de parada do while. Se eu quero executar uma determinada ação n vezes, posso criar um contador que me diz quando esse n foi atingido. No exemplo `filtra_pares`, esse n era o tamanho da tupla de entrada, a ação que estávamos contando era a verificação de cada elemento da tupla, e o contador foi implementado pela variável `próximo`. Verifique estes elementos no código da função:
 
-Conheça o site oficial da linguagem de programação Python: [https://www.python.org/](https://www.python.org/)
+```python
+def filtra_pares(t):
+    '''funcao que dada uma tupla não vazia de inteiros, retorna uma tupla com os
+    inteiros pares da tupla original, mantida a ordem.
+    tuple --> tuple'''
+    pares = ()
+    proximo = 0
+    while proximo < len(t):
+        if t[proximo] % 2 == 0:
+            pares = pares + (t[proximo],)
+        proximo = proximo + 1
+    return pares
+```
 
-### Atividade
-Vamos convidá-lo agora a exercitar os conhecimentos que acabamos de ver. Você vai agora fazer uma atividade respondendo algumas perguntas sobre os conceitos que acabamos de estudar. Fique atento: o importante é escrever respostas suas, próprias, que revelem o seu entendimento. É inútil copiar respostas de qualquer material. Nossa equipe já sabe esses conceitos, estamos interessados em ver como você os entendeu, para que possamos orientar nossas próximas ações educativas. Se você coloca respostas copiadas, ninguém se beneficia, nem nós, nem você mesmo. Ao contrário, você tirará grande proveito do exercício ao tentar elaborar suas próprias respostas, pois é nesse processo que você tem a oportunidade de refletir sobre o que foi estudado, articular cada parte de informação que está na sua memória e consolid
+A ideia por trás da noção de acumulador, por outro lado, é a construção passo a passo da resposta de uma função ou de alguma informação que vai ser usada posteriormente para a construção dessa resposta. Era o caso da variável `pares`, no problema `filtra_pares`. A cada iteração do while, se um novo número par foi identificado, ele foi incluído na resposta.
 
-ar seus conhecimentos. Então respire fundo, e responda o formulário que está no google classroom.
+O contador é bem representado por uma variável do tipo inteiro. Já o tipo de dado da variável acumuladora dependerá do que se deseja “acumular”. No do problema de filtragem de pares, nosso desejo era acumular elementos pares em uma tupla, logo o acumulador também era uma tupla. 
 
-## Primeiros passos na programação
+**ATENÇÃO! Em todos os casos, é essencial inicializar CORRETAMENTE as variáveis contadoras e acumuladoras antes do início da execução do laço! Leve em conta o tipo de dado e a operação de acumulação sendo feita em cada caso.** 
 
-Ter uma instalação local do Python é importante para as práticas deste curso! Siga as instruções a seguir para fazer o download e a instalação do Python no seu computador.
+Veja outras possibilidades nos exemplos abaixo:
 
-Este [link](https://www.python.org/downloads/) leva você para a página de download da versão mais recente do Python compatível com o sistema operacional da sua máquina:
+### Exemplo 1: Qual é a última vogal de uma palavra dada?
 
-Nos links abaixo estão instruções que podem te ajudar no processo de instalação. Escolha o link de acordo com o sistema operacional que você usa. As informações sobre “pip” não são importantes no momento, caso não você não as entenda, não se preocupe com isso agora:
-- [Passo a passo de instalação de Python para Windows;](https://python.org.br/instalacao-windows/)
-- [Passo a passo de instalação de Python para Linux;](https://python.org.br/instalacao-linux/)
-- [Passo a passo de instalação de Python para Mac.](https://python.org.br/instalacao-mac/)
+Neste exemplo, a variável `i` está fazendo o papel de um contador. Não temos nenhum acumulador sendo usado, pois este conceito não foi necessário para a construção da resposta, que é diretamente a última vogal encontrada.
 
-Caso você não tenha conseguido instalar, peça ajuda à equipe de monitores ou ao seu professor. Consulte do vídeo tutorial de instalação do Python: 
+### Exemplo 2: Qual o número de vogais em uma string.
 
-{{< youtube id="VGhJFcSxSvg" title="1- Instalando Python" >}}
+Neste exemplo, temos tanto um contador, implementado pela variável `i`, quanto um acumulador, implementado por `qtd_vogais`. A cada iteração do laço, no momento da avaliação da condição de parada, `i` indica quantas posições do texto já foram verificadas. Ao final da execução do laço, a variável `qtd_vogais` registra quantas vogais foram identificadas no texto.
 
-Uma vez instalado o Python, podemos abrir o programa IDLE, que vem com o Python, no seu computador. Basta usar a busca do sistema operacional, que geralmente está na barra de tarefas, na parte de baixo da tela do seu computador. Digite IDLE, e deve aparecer para você o link para abrir o programa de que estamos falando. Clique nele. Aí você está pronto para acompanhar as próximas etapas que vamos seguir para escrever seu primeiro código.
+### Exemplo 3: Qual a sequência de vogais de um texto?
 
-Os monitores também prepararam um vídeo mostrando como abrir e começar a usar o IDLE. Ele está disponível aqui:
+Neste exemplo temos um contador e um acumulador. Você consegue identificá-los? O acumulador é do tipo string. 
 
-{{< youtube id="p0pQ0k16XXQ" title="1 - Python - Ferramenta IDLE" >}}
+### Atividade: Vamos agora treinar um pouco com exercícios de fixação. Responda as perguntas da atividade “Contadores e acumuladores”. Fique atento ao prazo de entrega dessa atividade!
 
-### Operações aritméticas
-A primeira coisa que vamos aprender a fazer em Python são operações aritméticas. A forma de escrever (sintaxe) da linguagem Python para expressões aritméticas é semelhante à utilizada pelas calculadoras comuns. Escrevemos a expressão desejada intercalando operadores e operandos. Além dos números e dos sinais que representam cada um dos operadores, podemos usar também os parênteses para identificar trechos da fórmula que devem ser resolvidos primeiro.
+## Mais exemplos de uso do comando while
 
-Os operadores aritméticos mais comuns da linguagem Python são os seguintes:
-- \+ (soma)
-- \- (subtração)
-- \* (multiplicação - atenção que é o símbolo de asterisco, não é o x)
-- / (divisão)
+Veremos agora outros exemplos de código com o comando while. Você também verá o uso da função `randint` para manipular valores randômicos (aleatórios). 
 
-Para representar a operação de exponenciação (x elevado a y), o Python usa o operador:
-- ** (exponenciação)
+**Vídeo: Mais exemplos de uso do comando while**
 
-Existem também dois operadores interessantes, derivados da operação de divisão, quando estamos interessados em divisões inteiras (ou seja, onde paramos a operação de divisão antes de termos casas decimais no resultado):
-- // (quociente da divisão inteira)
-- % (resto da divisão inteira, operador que chamamos de módulo)
+Observação: O `random` é um módulo do Python dedicado à geração de números aleatórios. Ele tem várias funções interessantes, além da função `randint` abordada no vídeo. Vale a pena olhar mais sobre este módulo (usando o `help` no IDLE ou olhando a documentação na internet), pode ser útil em outras disciplinas do seu curso, não apenas Computação 1. 
 
-O funcionamento destes operadores é explicado no vídeo:
+## Loop infinito e retorno precoce
 
-{{< youtube id="95W2Sdc0lsU" title="1 - Operadores Aritméticos" >}}
+O próximo vídeo mostrará os erros mais comuns que podem ocorrer ao se utilizar o comando while. É importante conhecer esses erros, saber os seus resultados e entender como evitá-los.
 
-#### Exercício
-Vamos ver se você entendeu o que acabamos de ver. Considerando o que foi estudado sobre operadores aritméticos e sua ordem de precedência na linguagem Python, em que ordem seriam realizadas as operações das expressões abaixo? Faça as operações nessa ordem e anote o resultado.
-1. 2 * 5 % 4 + 6 / 3 - 1
-2. 3 * 2 ** 2 + 1 * 5 - 4
+**Vídeo: Erros comuns no uso do comando while**
 
-Agora, abra o IDLE e use o Shell para saber o resultado de cada uma das expressões. Compare com os resultados que você havia calculado. Foram os mesmos? Caso não tenha sido, significa que o Python fez as operações em uma ordem diferente da que você fez. Tente identificar o que não foi feito como você esperava e porquê.
+No arquivo de códigos desta aula 7, você encontrará versões corretas e erradas de algumas das funções vistas ao longo deste roteiro de estudos. Execute-as no Python tutor para fixar seus conhecimentos sobre os conceitos desta aula e aprender a identificar os erros comuns no uso do comando while. Pense bem nos testes que você vai executar para identificar os erros das versões defeituosas. 
 
-Agora que já sabemos como escrever expressões aritméticas em Python, iremos finalmente começar a construir nosso primeiro código em Python. Como em toda linguagem, temos que escolher um dos possíveis estilos permitidos para nos expressar. Neste curso, usaremos a programação estruturada modular, que é organizada em pequenos trechos de código, os módulos.
+Observações importantes: 
+- Quando pedimos para o computador executar um  laço infinito, ou seja, um laço cuja condição de parada nunca é verdadeira, parece que o interpretador está travado pois não aparece resposta nenhuma. Neste caso, você pode teclar a combinação de teclas Control+C para interromper forçadamente a execução.
+- Em alguns casos, no entanto, apesar do laço ser infinito em teoria, o fato dos dados que estamos usando no computador serem finitos,  pode levar a uma situação onde a condição de parada eventualmente é satisfeita, com a obtenção de uma resposta que, em geral, não faz muito sentido. É o caso do problema das populações que crescem. Temos a população A (popA) e a população B (popB)  e suas respectivas taxas de crescimento, e queremos saber quando popA alcança popB. Caso popA seja menor do que popB e sua taxa de crescimento seja também menor, a condição de parada (popA >= popB) nunca deveria ser verdade. Mas na realidade o tipo de dados float é finito, e quando as populações obtidas ultrapassarem o limite de valores representáveis pelo tipo float, essas variáveis receberão uma sequência de zeros e uns que é interpretada como infinito, por convenção. Quando ambas chegarem a esse valor, as populações serão consideradas iguais, levando à parada do laço e o retorno de algum valor que não representa o que o programador desejava. Fique atento!
+- Algumas ferramentas (não é o caso do IDLE) incluem o conceito de “time-out”,  ou seja, ela executa  por um determinado tempo e eventualmente “desiste” de continuar, encerrando a execução do código. O que será devolvido como resposta vai depender da ferramenta, nesse caso.
 
-O primeiro recurso do python que vamos aprender para fazer nossos módulos são **funções de programação**. Provavelmente você se lembra do conceito matemático de função.
+### Atividade: Vamos agora treinar um pouco com exercícios de fixação. Responda as perguntas da atividade “Explorando o while”. Fique atento ao prazo de entrega dessa atividade!
 
-Na matemática, a intuição por trás da definição de uma função é a descrição de uma maneira de associar a cada valor da(s) entrada(s) um valor de resultado. Considere por exemplo a função f abaixo, que associa a cada número o seu dobro:
+## Prática em Programação
 
-$f(x) = 2 \cdot x$
+Após concluir as etapas anteriores deste roteiro, faça as atividades práticas desta aula, disponíveis no Google Classroom da turma. 
 
-A partir da descrição da função f, percebemos que ela tem apenas uma entrada, identificada pela letra x que aparece entre parênteses, ao lado do nome da função. Podemos aplicar a função f a diferentes valores de x para saber o valor que será obtido como resultado. Supondo que o domínio da função f são os números inteiros, podemos calcular o valor de f, por exemplo, para os seguintes valores de x: 2, 100, -1. Temos que f(2) é 4, f(100) é 200, f(-1) é -2.
-
-Relembradas as funções matemáticas, vamos agora falar sobre funções de programação: Assim como na matemática, o conceito de função em programação é a descrição de uma maneira de se obter um valor de resultado a partir dos valores das entradas. Porém na programação esta descrição segue um formato diferente da notação matemática. Veremos como isso acontece no Python. 
-
-{{< youtube id="f7_iUqGv_sc" title="1 - Escrevendo uma função em Python" >}}
-
-Agora, vamos usar o IDLE para codificar a função de exemplo “dobro”: 
-
-{{< youtube id="rulx0w2_Jog" title="1 - Codificando uma função em Python" >}}
-
-## Exercício: Função Sucessor em Python
-
-Escreva uma função em Python que receba um número inteiro como entrada e retorne o sucessor desse número. Utilize o IDLE para codificar e testar sua função. Aproveite como exemplo o código que já foi escrito para a função dobro, disponível na sua sala de aula virtual.
-
-Algo saiu errado? Nada mais normal! Veja se o vídeo a seguir te ajuda 😊 
-
-{{< youtube id="k6RvhDQGJmw" title="1 - Erros comuns em Python" >}}
-
-Agora que você já viu como escrever uma função e como lidar com os possíveis erros que podem acontecer durante essa tarefa, é hora de exercitar.
-
-### Exercício: Funções em Python
-
-1. Baixe o arquivo `soma.py`. Salve em seu computador na pasta que você está usando para guardar seus códigos deste curso (lembre-se de manter seus arquivos organizados para facilitar seus estudos e não se perder no futuro).
-2. Abra o IDLE. Use o menu superior do IDLE para abrir um arquivo e abra o arquivo `soma.py`.
-3. Usando a função `soma` como exemplo, faça as seguintes funções em Python:
-   - `mult(x, y)`, que retorna o produto de x por y;
-   - `divi(x, y)`, que retorna a divisão de x por y.
-4. Salve seu arquivo com outro nome (por exemplo, `funcoes_mat.py`), não esquecendo de colocar .py ao final!
-5. Execute e teste suas funções.
-
-Agora que você já deu seus primeiros passos na escrita de código em Python, está na hora de se preparar para as atividades práticas que devem ser feitas essa semana. Assista o vídeo sobre a tarefa da programação:
-
-{{< youtube id="vY5RBEMaBb0" title="1 - A tarefa da programação" >}}
-
-
-### Prática em Programação
-
-Na parte de atividades do Google Sala de Aula, está uma lista de exercícios, que corresponde à prática desta semana. Ela contempla uma lista de funções que você deve fazer no editor do IDLE, testando sempre no shell. Seu professor dará mais detalhes sobre a entrega destes exercícios.
-
-### Material Complementar
-
-Para se aprofundar: [Linguagem de Programação](https://pt.wikipedia.org/wiki/Linguagem_de_programa%C3%A7%C3%A3o)
-
-Vídeo: [Como aprender programação - histórias e dicas](https://youtu.be/6OkQxxy5mpA)
-
-Livros de Python em português: [AprendaMais](https://wiki.python.org.br/AprendaMais)
-
-Site oficial do Python: [Python.org](https://www.python.org/)
+Até a próxima aula!
