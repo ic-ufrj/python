@@ -103,7 +103,7 @@ Os operadores aritméticos mais comuns da linguagem Python são os seguintes:
 - \+ (soma)
 - \- (subtração)
 - \* (multiplicação - atenção que é o símbolo de asterisco, não é o x)
-- \/ (divisão)
+- / (divisão)
 
 Para representar a operação de exponenciação (x elevado a y), o Python usa o operador:
 - ** (exponenciação)
