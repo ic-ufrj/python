@@ -129,7 +129,7 @@ O primeiro recurso do python que vamos aprender para fazer nossos módulos são 
 
 Na matemática, a intuição por trás da definição de uma função é a descrição de uma maneira de associar a cada valor da(s) entrada(s) um valor de resultado. Considere por exemplo a função f abaixo, que associa a cada número o seu dobro:
 
-\[ f(x) = 2 \cdot x \]
+$f(x) = 2 \cdot x$
 
 A partir da descrição da função f, percebemos que ela tem apenas uma entrada, identificada pela letra x que aparece entre parênteses, ao lado do nome da função. Podemos aplicar a função f a diferentes valores de x para saber o valor que será obtido como resultado. Supondo que o domínio da função f são os números inteiros, podemos calcular o valor de f, por exemplo, para os seguintes valores de x: 2, 100, -1. Temos que f(2) é 4, f(100) é 200, f(-1) é -2.
 
@@ -145,7 +145,7 @@ Agora, vamos usar o IDLE para codificar a função de exemplo “dobro”:
 
 Escreva uma função em Python que receba um número inteiro como entrada e retorne o sucessor desse número. Utilize o IDLE para codificar e testar sua função. Aproveite como exemplo o código que já foi escrito para a função dobro, disponível na sua sala de aula virtual.
 
-Algo saiu errado? Nada mais normal! Veja se o vídeo a seguir te ajuda :-) 
+Algo saiu errado? Nada mais normal! Veja se o vídeo a seguir te ajuda 😊 
 
 {{< youtube id="k6RvhDQGJmw" title="1 - Erros comuns em Python" >}}
 
@@ -172,8 +172,7 @@ Na parte de atividades do Google Sala de Aula, está uma lista de exercícios, q
 
 ### Material Complementar
 
-Para se aprofundar:
-- [Linguagem de Programação](https://pt.wikipedia.org/wiki/Linguagem_de_programa%C3%A7%C3%A3o)
+Para se aprofundar: [Linguagem de Programação](https://pt.wikipedia.org/wiki/Linguagem_de_programa%C3%A7%C3%A3o)
 
 Vídeo: [Como aprender programação - histórias e dicas](https://youtu.be/6OkQxxy5mpA)
 
