@@ -128,7 +128,9 @@ O primeiro recurso do python que vamos aprender para fazer nossos módulos são 
 
 Na matemática, a intuição por trás da definição de uma função é a descrição de uma maneira de associar a cada valor da(s) entrada(s) um valor de resultado. Considere por exemplo a função f abaixo, que associa a cada número o seu dobro:
 
-$`f(x) = 2 \cdot x`$
+```math { align="center" }
+$$f(x) = 2x$$
+```
 
 A partir da descrição da função f, percebemos que ela tem apenas uma entrada, identificada pela letra x que aparece entre parênteses, ao lado do nome da função. Podemos aplicar a função f a diferentes valores de x para saber o valor que será obtido como resultado. Supondo que o domínio da função f são os números inteiros, podemos calcular o valor de f, por exemplo, para os seguintes valores de x: 2, 100, -1. Temos que f(2) é 4, f(100) é 200, f(-1) é -2.
 
