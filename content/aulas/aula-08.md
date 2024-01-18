@@ -7,7 +7,7 @@ forma genérica de se repetir execuções de um trecho de código. Porém, não 
 aula, veremos uma segunda forma de se repetir a execução de um determinado trecho de
 código.
 
-## Apresentação do comando for
+### Apresentação do comando for
 
 Na aula anterior, fomos apresentados ao while e vimos como implementar a repetição de
 tarefas com este comando. Vimos que uso do while requer uma certa atenção por parte do
@@ -23,7 +23,8 @@ implementar a repetição de tarefas no Python: o comando for. Veja o vídeo aba
 como e quando podemos usar o comando for para se implementar a repetição da execução de
 um trecho de código.
 
-[Apresentação do comando for](https://www.youtube.com/watch?v=LX19inF-Gvk)
+{{< youtube id="LX19inF-Gvk" title="Apresentação do comando for">}}
+
 
 
 Agora que vimos como usar o for, vejamos um trecho de código com o comando **for**
