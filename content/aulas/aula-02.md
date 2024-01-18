@@ -110,3 +110,304 @@ Um outro conceito importante em Python é o da utilização de argumentos defaul
 def potencia(y=2,x):
 	return x**y
 ```
+
+
+## Tipos de Dados
+
+O conceito de tipo de dado é muito importante na programação. Sabemos que uma das coisas que mais fazemos quando programamos é lidar com informações, que manipulamos de maneiras diversas para produzir outras informações. O tipo de dado é como uma forma que a linguagem de programação usa para representar as informações de forma que o computador consiga armazená-las e seguir maneiras padronizadas de manipulá-las. Por exemplo, ao lidar com dados que representam números inteiros, as operações aritméticas são feitas de uma maneira um pouco distinta do que são quando lidamos com dados numéricos que tem parte fracionária. Provavelmente você se recorda que teve que aprender, em algum momento de sua vida escolar, como adaptar as operações de divisão e multiplicação para lidar com números que tinham casas decimais, coisa que não era necessária ao lidar com números inteiros. 
+
+Dependendo de seu tipo, a forma de armazenamento do dado será diferente na memória, bem como as operações disponíveis para serem realizadas com esses dados. Veremos no próximo vídeo os principais tipos de dados numéricos.
+
+{{< youtube id="jCnrcEuu_Zw" title="Tipos numéricos">}}
+
+
+Para conseguir lidar com qualquer dado, o Python sempre o enquadra em algum tipo de dado que ele conheça. Quando o programador não diz explicitamente qual tipo de dado ele deseja que seja utilizado, o Python escolhe um automaticamente, de acordo com regras internas de identificação de padrões. 
+
+
+##	Teste de mesa
+
+Até aqui você aprendeu a como definir funções, fazer reuso, usar argumentos default e tipos numéricos. Quando usamos várias funções para resolver um mesmo problema, nosso código já começa a ficar um pouco mais complexo. Um recurso importante para que a gente não se perca é o **teste de mesa**. O teste de mesa é uma prática que todo programador lança mão quando lida com códigos que não são elementares como os da aula 1. Essa prática consiste em pegar um lápis/caneta e um papel, e tentar reproduzir manualmente o funcionamento do seu código. Ou seja, você vai simular o computador. 
+
+Para fazer o teste de mesa, olhe para o código da função que você deseja testar. Vamos considerar o seguinte código:
+
+
+```python
+def areacirc(r):
+    '''calcula a area do círculo de raio r'''
+    return 3.14*r**2
+
+def areacoroa(r1,r2):
+    '''calcula a area da cora circular dados os raios r1 e r2 de dois
+    círculos concentricos, sendo r1 maior que r2
+    '''
+    return areacirc(r1)-areacirc(r2)
+
+```
+
+
+Assim como quando você testa sua função usando o interpretador Python, a primeira coisa que você tem que fazer no teste de mesa é escolher os valores com os quais deseja testar sua função. Vou fazer o teste de mesa da função areacoroa com os valores de entrada 3 e 2. Então pegue seu caderno e escreva no alto da página: 
+
+```
+areacoroa(3,2)
+```
+
+
+Agora, temos que olhar para o código da função areacoroa. Qual é a primeira coisa que o Python vai fazer quando se deparar com a chamada da função areacora(3,2) ? A primeira coisa a ser feita é a associação dos valores 3 e 2 aos parâmetros r1  e r2. Assim sendo, anote essa associação no seu caderno:
+
+```
+areacoroa(3,2)
+	r1 -> 3, r2 -> 2
+```
+
+E agora, o que a Python fará? Ele vai executar a primeira linha do código da função (a documentação não é executada). Olhando o código, temos que a primeira linha depois da documentação é *return areacirc(r1)-areacirc(r2)*.
+
+Já sabemos que o valor atual de r1 é 3, e o valor atual de r2 é 2. Então vamos anotar no nosso caderno:
+
+```
+areacoroa(3,2)
+    r1 -> 3, r2 -> 2
+    return areacirc(3) - areacirc(2)
+```
+
+O que o Python fará a seguir? O valor de retorno da função *areacoroa(3,2)* já está pronto para ser enviado a quem chamou a função? Ainda não está! O python prossegue trabalhando na execução dessa linha de código, e é isso que nós vamos fazer também. Agora, O Python vai fazer a chamada da função *areacirc(3)*. Isso significa que, até termos o valor de retorno de *areacirc(3)*, a execução da função *areacoroa* é suspensa. Vamos representar isso no caderno, botando *areacirc(3)* numa coluna ao lado:
+
+
+<head>
+   <style>
+   table {border-collapse:collapse; table-layout:fixed; width:310px;}
+   table td {border:solid 1px #fab; width:400px; word-wrap:break-word;vertical-align:top}
+   </style>
+</head>
+        <table>
+        <tr><td>
+        <i>
+        areacoroa(3,2)<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;    r1 -> 3, r2 -> 2 </i><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;    return <u>areacirc(3)</u> - areacirc(2)   
+        </i>
+        </td>
+        <td>
+        <i>
+        areacirc(3)<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;    r->3
+        </i>
+        </td>
+        </tr>
+        </table>
+
+
+
+Agora, vamos fazer o teste de mesa de *areacirc(3)*. A primeira coisa é fazer a associação do valor de entrada com o parâmetro. A seguir, olhamos para a primeira linha de código da função *areacirc*:
+
+<head>
+   <style>
+   table {border-collapse:collapse; table-layout:fixed; width:310px;}
+   table td {border:solid 1px #fab; width:400px; word-wrap:break-word;vertical-align:top}
+   </style>
+</head>
+        <table>
+        <tr><td>
+        <i>
+        areacoroa(3,2)<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;    r1 -> 3, r2 -> 2 </i><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;    return <u>areacirc(3)</u> - areacirc(2)   
+        </i>
+        </td>
+        <td>
+        <i>
+        areacirc(3)<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;    r->3<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;    return 3.14*3**2
+        </i>
+        </td>
+        </tr>
+        </table>
+
+O que o Python faria a seguir? Já temos todas as informações necessárias para fazer a conta do resultado de *areacirc(3)*. É isso que será feito: 
+
+
+<head>
+   <style>
+   table {border-collapse:collapse; table-layout:fixed; width:310px;}
+   table td {border:solid 1px #fab; width:400px; word-wrap:break-word;vertical-align:top}
+   </style>
+</head>
+        <table>
+        <tr><td>
+        <i>
+        areacoroa(3,2)<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;    r1 -> 3, r2 -> 2 </i><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;    return <u>areacirc(3)</u> - areacirc(2)   
+        </i>
+        </td>
+        <td>
+        <i>
+        areacirc(3)<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;    r->3<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;    return 3.14*3**2<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    28.26
+        </i>
+        </td>
+        </tr>
+        </table>
+
+
+
+O valor de retorno dessa função está pronto, e o Python retorna este resultado para quem chamou a função.  Vamos fazer isso no nosso teste de mesa:
+
+
+<head>
+   <style>
+   table {border-collapse:collapse; table-layout:fixed; width:310px;}
+   table td {border:solid 1px #fab; width:400px; word-wrap:break-word;vertical-align:top}
+   </style>
+</head>
+        <table>
+        <tr><td>
+        <i>
+        areacoroa(3,2)<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;    r1 -> 3, r2 -> 2 </i><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;    return <u><mark>28.26</mark></u> - areacirc(2)   
+        </i>
+        </td>
+        <td>
+        <i>
+        areacirc(3)<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;    r->3<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;    return 3.14*3**2<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    28.26
+        </i>
+        </td>
+        </tr>
+        </table>
+
+
+Agora o Python prossegue a execução  da função *areacoroa(3,2)*, chamando a função *areacirc(2)*.
+
+
+
+<head>
+   <style>
+   table {border-collapse:collapse; table-layout:fixed; width:310px;}
+   table td {border:solid 1px #fab; width:400px; word-wrap:break-word; vertical-align:top}
+   </style>
+</head>
+        <table>
+        <tr><td>
+        <i>
+        areacoroa(3,2)<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;    r1 -> 3, r2 -> 2 </i><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;    return 28.26 - <u>areacirc(2)</u>   
+        </i>
+        </td>
+        <td>
+        <i>
+        areacirc(3)<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;    r->3<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;    return 3.14*3**2<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    28.26
+        <br>
+        areacirc(2)<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;    r->2<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;    return 3.14*2**2<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    12.56
+        </i>
+        </td>
+        </tr>
+        </table>
+
+
+E finalmente, o Python retorna o resultado da função *areacirc(2)* e prossegue com a execução de *areacoroa(3,2)*
+
+
+<head>
+   <style>
+   table {border-collapse:collapse; table-layout:fixed; width:310px;}
+   table td {border:solid 1px #fab; width:400px; word-wrap:break-word; vertical-align:top}
+   </style>
+</head>
+        <table>
+        <tr><td>
+        <i>
+        areacoroa(3,2)<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;    r1 -> 3, r2 -> 2 </i><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;    return 28.26 - <mark>12.56</mark><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        <span style="background-color: #d4ffb2">15.70</span>   
+        </i>
+        </td>
+        <td>
+        <i>
+        areacirc(3)<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;    r->3<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;    return 3.14*3**2<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    28.26
+        <br>
+        areacirc(2)<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;    r->2<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;    return 3.14*2**2<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    12.56
+        </i>
+        </td>
+        </tr>
+        </table>
+
+
+Vemos então, com nosso teste de mesa, que o valor retornado seria 15.70. O teste de mesa serve para compreendermos o que de fato está sendo feito por nosso código, e é particularmente útil quando testamos nosso código no computador e percebemos que resultado não corresponde ao que esperamos, porém não sabemos dizer onde está o erro. Olhando linha após linha, dessa maneira sistematizada e documentada, iremos certamente encontrar o problema :-)
+
+**Exercício:** Como exercício, faça o **teste de mesa** do seguinte código e ***verifique se ele faz efetivamente o que deveria fazer***:
+
+```python
+def pi():
+    '''retorna o valor de pi com precisao de duas casas decimais'''
+    return 3.14
+
+def areacirc(r):
+    '''calcula a area do círculo de raio r'''
+    return pi()*r**2
+
+def areacoroa(R,r):
+    '''calcula a area da cora circular dados os raios R e r de dois
+    círculos concentricos, sendo R maior que r
+    '''
+    return areacirc(R-r)
+
+```
+
+
+Caso tenha dúvidas, consulte o seu professor/monitor durante a aula síncrona, ou nos horários síncronos e plantões de monitoria.
+
+
+##	Módulos
+
+As funções que construímos podem ser usadas várias vezes. Para que nosso código fique organizado, é comum colocar funções que tratam de uma mesma classe de problemas (por exemplo, funções para cálculos de polinômios, funções geométricas, etc) em um mesmo arquivo. Esse tipo de organização é feito em várias linguagens de programação, e ficou popularmente conhecido como “biblioteca de funções”. No Python, a esse tipo de arquivo que organiza funções acerca de um mesmo tema dá-se o nome de módulo.  
+
+No próximo vídeo, vamos aprender o conceito de módulos presentes no Python. No geral, módulos agrupam funções que realizam tarefas comuns, como cálculos matemáticos, geração de números aleatórios, manipulação de dados temporais (que representam datas e horas), dentre outros. 
+
+
+{{< youtube id="HR5StwRtJvc" title="Módulos no Python">}}
+
+O próximo vídeo contém mais alguns exemplos de como criar e reutilizar funções Python e também o uso de funções presentes no Módulo Math. 
+
+
+{{< youtube id="4g4X5szpGtI" title="Uso de módulos">}}
+
+Por fim, o próximo vídeo contém alguns erros comuns que podem ocorrer quando usamos funções e módulos em Python.
+
+
+{{< youtube id="knbVIIQQVME" title="Erros comuns">}}
+
+
+
+Pois bem, até aqui você aprendeu mais sobre a escrita e o uso de funções em Python para produzir soluções computacionais para problemas. Aprendeu a planejar soluções para um problema que podem ser compostas de várias funções. Aprendeu sobre como criar e utilizar argumentos default, e sobre os principais tipos de dados numéricos presentes no Python. Você também aprendeu que a linguagem Python permite o uso de bibliotecas de funções chamadas módulos, e que já temos disponível, junto com a instalação do Python vários módulos com funções pré-definidas que podem facilitar a construção de códigos. Por fim, você viu e aprendeu em “mais exemplos”, um resumo de como definir funções fazendo reutilização e aplicando funções do módulo math e também verificou alguns erros comuns.
+
+**Atividade:** Para refletir sobre estes conteúdos e fixar seus conhecimentos, faça agora a atividade “Pesquisando funções pré definidas”. Não hesite em tirar dúvidas na aula síncrona ou nos plantões de monitoria. 
+
+Concluído o estudo dirigido, leve suas dúvidas para a aula síncrona.Você terá oportunidade de consolidar seus conhecimentos realizando a **atividade prática** desta aula, que ficará disponível no painel de atividades. 
