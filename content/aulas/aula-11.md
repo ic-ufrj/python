@@ -202,7 +202,6 @@ def define_sorteio():
 	
 	return n, x
 
-
 from random import randint
 def sortear(n, x):
 	'''Funcao que sorteia n numeros aleatorios entre 1 e x
@@ -216,7 +215,6 @@ def sortear(n, x):
 	
 	return lista_sorteados
 	
-	
 def imprime_resultado(lista_sorteados):
 	'''Funcao que imprime o resultado do sorteio.
 	list -> None'''
@@ -227,7 +225,6 @@ def imprime_resultado(lista_sorteados):
 	for i in range(len(lista_sorteados)):
 		print(str.format("O {}º numero sorteado foi: {}", i+1, lista_sorteados[i]))
 		
-	
 def main():
 	'''Funcao principal do Programa Sorteador
 	None -> None'''
@@ -271,7 +268,65 @@ principal. A versão completa da função principal com toda a interação
 com o usuário se encontra na figura a seguir.
 
 ```Python
-código-fonte cinemática
+def main():
+    ''' programa principal para realização dos cálculos do laboratório de cinemática'''
+
+    # dados do experimento
+    # pedir para o usuário fornecer os dados do experimento
+    # fornecimento da velocidade inicial
+    velocidade_inicial = float(input("Velocidade inicial (m/s): "))
+
+    # fornecimento da aceleração
+    aceleracao = float(input("Aceleração constante (m/s): "))
+
+    tempos = []
+    tempo_str = "..."
+    print("Tempos (digite ENTER quando terminar): ")
+    while tempo_str != "":
+        tempo_str = input(" - Tempo (s): ")
+        if temp_str:
+            list.append(tempos, float(tempo_str))
+    qtd_observacoes = len(tempos)
+
+    # calcula a velocidade esperada
+    velocidades_esperadas = calcula_esperadas(velocidade_inicial, aceleracao, tempos)
+
+    # resultados observados
+    # pedir para o usuário fornecer os resultados observados
+    velocidades_observadas = []
+    print(str.format("Velocidade observadas (espera-se {} velocidades): ", qtd_observacoes))
+    i = 0
+    while i < qtd_observacoes:
+        velocidade_str = input(str.format(" - Velocidade (m/s) em {} s: ", tempos[i]))
+        if velocidade_str != "":
+            list.append(velocidades_observadas, float(velocidade_str))
+            i += 1
+        else:
+            print(str.format("Ainda faltam {} velocidades.", qtd_observacoes - i))
+    # cálculo dos erros
+    erros = erro_ao_longo_do_tempo(velocidades_esperadas, velocidades_observadas, tempos)
+    
+    # saída para o usuário
+    strings_velocidades_esperadas = []
+    for velocidade in velocidades_esperadas:
+        string_velocidade_esperada = str.format("{:8.2f}", velocidade)
+        list.append(strings_velocidades_esperadas, string_velocidade_esperada)
+
+    strings_velocidades_observadas = []
+    for velocidade in velocidades_observadas:
+        string_velocidade_observada = str.format("{:8.2f}", velocidade)
+        list.append(strings_velocidades_observadas, string_velocidade_observada)
+
+    strings_erros_em_porcentagem = []
+    for erro in erros:
+        erro_em_porcentagem, tempo = erro
+        string_erro_em_porcentagem = str.format("{:7.2f}%", erro_em_porcentagem)
+        list.append(strings_erros_em_porcentagem, string_erro_em_porcentagem)
+
+    print(str.format("\n\nComparação de velocidades (v0 = {} m/s; a = {} m/s^2):", velocidade_inicial, aceleracao))
+    print(str.format(" - Velocidades esperadas  (m/s): [{}]", str.join(", ", strings_velocidades_esperadas))
+    print(str.format(" - Velocidades observadas (m/s): [{}]", str.join(", ", strings_velocidades_observadas)))
+    print(str.format(" - Erros                    (%): [{}]", str.join(", ", strings_erros_em_porcentagem)))
 ```
 
 Mas se observamos bem essa função principal, vemos que toda a parte de
