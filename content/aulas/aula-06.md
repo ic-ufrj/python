@@ -331,4 +331,70 @@ Veja mais sobre as funções de dicionários no vídeo:
 
 **Atividade:** Faça agora a atividade "Manipulação de dicionários", para exercitar seus conhecimentos.
 
+**Exercício:** Vamos trabalhar um pouco a manipulação de listas em funções. Usaremos como exemplo o aplicativo `contatinhosApp`, que apareceu anteriormente nas atividades práticas.  
+
+Lembrando que a lista com as informações de cada contato segue o seguinte padrão:
+
+![Informações de contatos](image6-1.png)
+
+Exemplo dos dados de um contato no formado do modelo de dados do contatinhosApp: 
+
+`['Bruno Campos', ['2199112233', '2133992211'], 'brunoc91@emailquente.com.br', '@brunocampos91']`
+
+Considere que existe uma lista chamada `agenda_usuario` que armazena as informações de todos os contatinhos do aplicativo. Como as informações de cada contatinho são também armazenadas em uma lista, `agenda_usuario` será uma lista de listas. De início, a lista está vazia (imaginando a situação em que o usuário do aplicativo ainda não cadastrou nenhum contatinho).
+
+Para inserir um contatinho na agenda, vamos criar uma função que receba como entrada a lista `agenda` e a lista com os dados de um novo contatinho. Sua função vai inserir o novo contatinho na agenda, e ordenar a agenda. O efeito de sua função é alterar o conteúdo da lista `agenda`. Como essa alteração persiste mesmo após o término da execução da função, nenhum valor de retorno é necessário. 
+
+```python
+def inserircontato(agenda, contato):
+    list.append(agenda, contato)
+    list.sort(agenda)
+```
+
+Para testar essa função, vamos criar a variável `agenda_usuario`, iniciando com uma lista vazia. Também precisaremos ter a lista com os dados de um contatinho para ser inserido na agenda. Podemos colocar essas informações logo abaixo da definição da função, no mesmo arquivo de código.	
+
+```python
+agenda_usuario=[]
+
+cont=['Bruno Campos',
+      ['2199112233', '2133992211'],
+      'brunoc91@emailquente.com.br',
+      '@brunocampos91']
+```
+
+Após salvar o arquivo e mandar executar no IDLE, vamos fazer o teste da função no interpretador Python da seguinte forma:
+
+```python
+>>> inserircontato(agenda_usuario, cont)
+```
+
+Repare que nada apareceu como resposta da função. Isso acontece porque ela não tem comando de retorno em sua definição. Para saber o efeito da função, devemos olhar a variável que foi alterada, ou seja, `agenda_usuário`:
+
+```python
+>>> agenda_usuário
+[['Bruno Campos', ['2199112233', '2133992211'], 'brunoc91@emailquente.com.br', '@brunocampos91']]
+```
+
+Já identificamos que a informação do contatinho foi inserida corretamente. Porém, ainda não temos como saber se a agenda está ordenada. Para testar isso, vamos inserir na agenda outros contatinhos:
+
+```python
+>>> cont2=['Avelino Champs ',
+       ['2122332211'],
+       'avel@gemeil.com',
+       '@avelmaster']
+>>> inserircontato(agenda_usuario, cont2)	 
+>>> agenda_usuário 
+[['Avelino Champs ', ['2122332211'], 'avel@gemeil.com', '@avelmaster'], ['Bruno Campos', ['2199112233', '2133992211'], 'brunoc91@emailquente.com.br', '@brunocampos91']]
+
+>>> cont3=['Bianca Fields',
+       ['2198989898'],
+       '',
+       '@bia__fields'] 
+>>> inserircontato(agenda_usuario, cont3)
+>>> agenda_usuário 
+[['Avelino Champs ', ['2122332211'], 'avel@gemeil.com', '@avelmaster'], ['Bianca Fields', ['2198989898'], '', '@bia__fields'], ['Bruno Campos', ['2199112233', '2133992211'], 'brunoc91@emailquente.com.br', '@brunocampos91']]
+```
+
+Faça este e outros testes com o código fornecido. Você pode juntar este código ao arquivo com o código que fez anteriormente para o `contatinhosApp`, e tentar fazer uso articulado das funções que você já tinha feito com estas.
+
 Até a próxima aula. 
