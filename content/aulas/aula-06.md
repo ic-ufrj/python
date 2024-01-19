@@ -337,7 +337,7 @@ Lembrando que a lista com as informações de cada contato segue o seguinte padr
 
 ![Informações de contatos](image6-1.png)
 
-Exemplo dos dados de um contato no formado do modelo de dados do contatinhosApp: 
+Exemplo dos dados de um contato no formato do modelo de dados do `contatinhosApp`: 
 
 `['Bruno Campos', ['2199112233', '2133992211'], 'brunoc91@emailquente.com.br', '@brunocampos91']`
 
