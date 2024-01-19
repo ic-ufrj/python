@@ -11,14 +11,14 @@ Manipular um dado é uma maneira de dizer que podemos trabalhar o dado, fazer op
 
 Algumas operações são comuns a vários tipos de dados iteráveis. A operação de **indexação** é comum a strings, tuplas, listas e dicionários; para strings, tuplas e listas os índices serão números inteiros, enquanto que para dicionários, os índices são as chaves dos mapeamentos já inseridos. Já o **fatiamento** pode ser aplicado a strings, tuplas e listas, porém não é aplicável a dicionários (que não pressupõem ordem entre os mapeamentos inseridos).
 
-O operador `in` (e consequentemente a expressão `not in`), que relaciona elementos com um dado iterável, também pode ser aplicado a strings, tuplas, listas e dicionários. Lembrando que esse operador retorna True caso o elemento esteja no iterável, e falso caso contrário (o oposto ocorre com a expressão `not in`).
+O operador `in` (e consequentemente a expressão `not in`), que relaciona elementos com um dado iterável, também pode ser aplicado a strings, tuplas, listas e dicionários. Lembrando que esse operador retorna True caso o elemento esteja no iterável, e False caso contrário (o oposto ocorre com a expressão `not in`).
 
 Os operadores de **concatenação** e **multiplicação** podem ser aplicados em tuplas, listas e strings. Não se aplicam diretamente a dicionários. 
 
 
 ## Funções específicas para manipulação de strings
 
-Python provê funções básicas de manipulação de dados específicas para cada tipo. No caso das strings, podemos citar, por exemplo, `str.lower()`, `str.upper()`, `str.count()` e `str.index()`. No vídeo a seguir, vamos falar sobre estas funções e como fazer o uso adequado delas. Sugerimos que após ver o vídeo com a explicação, abra a shell do IDLE e leia a documentação de cada uma dessas funções disponíveis via comando help.
+Python provê funções básicas de manipulação de dados específicas para cada tipo. No caso das strings, podemos citar, por exemplo, `str.lower()`, `str.upper()`, `str.count()` e `str.index()`. No vídeo a seguir, vamos falar sobre estas funções e como fazer o uso adequado delas. Sugerimos que após ver o vídeo com a explicação, abra a shell do IDLE e leia a documentação de cada uma dessas funções disponíveis via comando `help`.
 
 {{< youtube id="qihJyv6L4Io" title="Manipulação de Strings" >}}
 
@@ -55,9 +55,9 @@ Agora vamos testar exemplos com a função `str.replace()`. Ainda usando a strin
 
 ```python
 >>> str.replace(s,"parte","parcela")
->>> str.replace(s, "parte","parcela",2)
+>>> str.replace(s, "parte","parcela", 2)
 ```
-Lembrando para que serve a função `str.partition()`, qual o retorno das seguintes chamadas dessa função usando a variável s como parâmetro?
+Lembrando para que serve a função `str.partition()`, qual o retorno das seguintes chamadas dessa função usando a variável `s` como parâmetro?
 
 ```python
 >>> str.partition(s,"t")
@@ -81,7 +81,7 @@ Agora, vamos testar alguns exemplos usando a função `str.join()`. O que será 
 Agora vamos testar com uma lista. O que irá acontecer após executar a linha abaixo?
 
 ```python
->>> str.join("/",["usr","bin","python“])
+>>> str.join("/",["usr","bin","python"])
 ```
 
 O que acontece com os demais exemplos abaixo?
@@ -94,7 +94,7 @@ O que acontece com os demais exemplos abaixo?
 **Importante!** Como o `str.split()` gera como saída uma sequência de strings, é comum que essa saída seja usada como entrada para `str.join()`. Vamos testar com o seguinte exemplo:
 
 ```python
->>>  str.join("/", str.split('19-09-2020', ‘-’))
+>>>  str.join("/", str.split('19-09-2020', '-'))
 ```
 
 Por último, vamos realizar alguns testes com a função `str.strip()`. Dado os parâmetros dos exemplos abaixo, o que será retornado? Repare que temos três funções diferentes nas linhas de execução, são elas: `str.strip()`, `str.rstrip()` e `str.lstrip()`.
@@ -114,15 +114,15 @@ Na tabela abaixo, apresentamos um resumo das funções de strings estudadas até
 
 Função | Para que serve | Exemplo
 --- | --- | ---
-upper | retorna a string passada como parâmetro em letras maiúsculas. | `str.upper(<<nome da string>>)`
-lower | retorna a string passada como parâmetro em letras minúsculas. | `str.lower(<<nome da string>>)`
-count | conta o número de ocorrências de uma substring dentro de uma string. Lembrando que os parâmetros de *inicio* e *fim* são opcionais.  | `str.count(<<nome da string>>, <<substring>>, <<início>>, <<fim>>)`
-index | retorna o índice da primeira ocorrência de uma substring dentro de uma string. Lembrando que os parâmetros de *inicio* e *fim* são opcionais.  | `str.index(<<nome da string>>, <<substring>>, <<início>>, <<fim>>)`
-find | retorna o índice da primeira ocorrência de uma substring em uma string. Lembrando que os parâmetros de *inicio* e *fim* são opcionais e que não é levantado um erro quando a substring não é encontrada, como acontece com `str.index()`.  | `str.find(<<nome da string>>, <<substring>>, <<início>>, <<fim>>)`
-replace | substitui as n primeiras ocorrências de uma substring por uma nova substring dentro de uma string. Lembrando que o número de ocorrências é opcional e, se não for definido, são trocadas todas as ocorrências. | `str.replace(<<nome da string>>, <<substring a ser substituída>>, <<substring de substituição>>, <<número de ocorrências>>)`
-strip | retorna uma substring de uma string passada como parâmetro sem os caracteres pertencentes à substring passada como segundo parâmetro. Se a substring *caractere* não for especificada, retira caracteres em branco. | `str.strip(<<nome da string>>, <<caractere>>)`
-partition | Divide a *string* em 3 partes: o que vem antes do *separador*, *separador* e o que vem depois do *separador*. Se *separador* não pertence à *string*, a *string* é retornada seguida por duas strings vazias.  | `str.partition(<<string>>, <<separador>>)`
-split | Retorna uma lista com as substrings da *string* presentes entre cópias de uma outra string *separador*. Se *separador* não for especificado, assume-se sequências de caracteres em branco, tabs ou newlines. | `str.split(<<string>>, <<separador>>)`
+upper | Retorna a string passada como parâmetro em letras maiúsculas. | `str.upper(<<nome da string>>)`
+lower | Retorna a string passada como parâmetro em letras minúsculas. | `str.lower(<<nome da string>>)`
+count | Conta o número de ocorrências de uma substring dentro de uma string. Lembrando que os parâmetros de `inicio` e `fim` são opcionais.  | `str.count(<<nome da string>>, <<substring>>, <<início>>, <<fim>>)`
+index | Retorna o índice da primeira ocorrência de uma substring dentro de uma string. Lembrando que os parâmetros de `inicio` e `fim` são opcionais.  | `str.index(<<nome da string>>, <<substring>>, <<início>>, <<fim>>)`
+find | Retorna o índice da primeira ocorrência de uma substring em uma string. Lembrando que os parâmetros de `inicio` e `fim` são opcionais e que não é levantado um erro quando a substring não é encontrada, como acontece com `str.index()`.  | `str.find(<<nome da string>>, <<substring>>, <<início>>, <<fim>>)`
+replace | Substitui as *n* primeiras ocorrências de uma substring por uma nova substring dentro de uma string. Lembrando que o número de ocorrências é opcional e, se não for definido, são trocadas todas as ocorrências. | `str.replace(<<nome da string>>, <<substring a ser substituída>>,` `<<substring de substituição>>, <<número de ocorrências>>)`
+strip | Retorna uma substring de uma string passada como parâmetro sem os caracteres pertencentes à substring passada como segundo parâmetro. Se a substring `caractere` não for especificada, retira caracteres em branco. | `str.strip(<<nome da string>>, <<caractere>>)`
+partition | Divide `string` em 3 partes: o que vem antes do `separador`, `separador` e o que vem depois do `separador`. Se `separador` não pertence a `string`, `string` é retornada seguida por duas strings vazias.  | `str.partition(<<string>>, <<separador>>)`
+split | Retorna uma lista com as substrings de `string` presentes entre cópias de uma outra string `separador`. Se `separador` não for especificado, assume-se sequências de caracteres em branco, tabs ou newlines. | `str.split(<<string>>, <<separador>>)`
 join | Concatena uma sequência de strings (fornecidas em uma tupla ou lista ou string), intercalados com cópias do separador. | `str.join(<<separador>>, <<sequencia>>)`
 
 
@@ -158,7 +158,7 @@ Imagine agora que não seja esse o comportamento desejado, ou seja, que queremos
 [10, 20, 30, 40, 50, 60, 70, 80, 90]
 ```
 
-**Atividade:** Vamos agora treinar um pouco com exercícios de fixação. Responda as perguntas da atividade “Manipulação de Strings e Listas”. Fique atento ao prazo de entrega dessa atividade!
+**Atividade:** Vamos agora treinar um pouco com exercícios de fixação. Responda as perguntas da atividade "Manipulação de Strings e Listas".
 
 
 ## Funções específicas para manipulação de listas
@@ -272,7 +272,7 @@ Veja agora, com mais detalhes as outras funções e operadores de listas:
 
 {{< youtube id="jvcpw8clIUU" title="Ainda mais funções e operações sobre listas" >}}
 
-**Atividade:** Vamos agora treinar um pouco com exercícios de fixação. Responda as perguntas da atividade “Manipulação de listas”. Fique atento ao prazo de entrega dessa atividade!
+**Atividade:** Vamos agora treinar um pouco com exercícios de fixação. Responda as perguntas da atividade "Manipulação de listas".
 
 ## Funções específicas para manipulação de dicionários
 
@@ -295,7 +295,7 @@ Exemplos:
 >>> produtos = {'farinha': 3.00,
      'feijão': 5.00,
      'leite': 4.25,
-     		     'açúcar': 2.49}
+     'açúcar': 2.49}
 >>> len(produtos)
 4
 
@@ -329,6 +329,6 @@ Veja mais sobre as funções de dicionários no vídeo:
 
 {{< youtube id="2WrHduxNRBc" title="Manipulação de dicionários" >}}
 
-**Atividade:** Faça agora a atividade "Manipulação de dicionários", para exercitar seus conhecimentos. Fique atento ao prazo de entrega dessa atividade!
+**Atividade:** Faça agora a atividade "Manipulação de dicionários", para exercitar seus conhecimentos.
 
 Até a próxima aula. 
