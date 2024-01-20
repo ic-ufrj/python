@@ -23,7 +23,7 @@ implementar a repetição de tarefas no Python: o comando for. Veja o vídeo aba
 como e quando podemos usar o comando for para se implementar a repetição da execução de
 um trecho de código.
 
-[Apresentação do comando for](https://www.youtube.com/watch?v=LX19inF-Gvk)
+{{< youtube id="LX19inF-Gvk" title="Apresentação do comando for">}}
 
 
 Agora que vimos como usar o for, vejamos um trecho de código com o comando **for**
