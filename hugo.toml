@@ -37,4 +37,5 @@ theme = 'relearn-5.23.2'
     highlightWrap = false # pois Python depende de identação
     disableInlineCopyToClipBoard = true
     disableHoverBlockCopyToClipBoard = false
-    landingPageName = "<i class='fas fa-home'></i> Início"
+    disableLandingPageButton = true
+        #landingPageName = "<i class='fas fa-home'></i> Início"
