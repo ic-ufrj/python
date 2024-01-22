@@ -397,4 +397,11 @@ Já identificamos que a informação do contatinho foi inserida corretamente. Po
 
 Faça este e outros testes com o código fornecido. Você pode juntar este código ao arquivo com o código que fez anteriormente para o `contatinhosApp`, e tentar fazer uso articulado das funções que você já tinha feito com estas.
 
+## Prática em Programação
+
+Após concluir as etapas anteriores deste roteiro, faça as atividades práticas desta aula:
+
+- [Laboratório 6 - Machine Teaching](lab6MT.pdf)
+- [Laboratório 6 - IDLE](lab6IDLE.pdf)
+
 Até a próxima aula. 
