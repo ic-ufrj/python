@@ -35,7 +35,7 @@ Laços são ferramentas algorítmicas bastante poderosas, pois permitem que seja
 <br>
     
 
-**Atividade:**  Vamos agora treinar um pouco com exercícios de fixação. Responda as perguntas da atividade “Introdução aos laços aninhados”. Fique atento ao prazo de entrega dessa atividade!
+**Atividade:**  Vamos agora treinar um pouco com exercícios de fixação. Responda as perguntas da atividade [“Introdução aos laços aninhados”](https://forms.gle/LxzdNxmniBS5svCB6).
 
 ## Matrizes
 
@@ -146,7 +146,7 @@ O vídeo a seguir apresenta o passo a passo de uma função para multiplicação
 
 **Dica:** você pode rever o passo-a-passo da multiplicação de matrizes com o exemplo numérico utilizado no link: https://www.somatematica.com.br/emedio/matrizes/matrizes4.php
 
-**Atividade:**  Vamos agora treinar um pouco com exercícios de fixação. Responda as perguntas da atividade “Matrizes e laços aninhados”. Fique atento ao prazo de entrega dessa atividade!
+**Atividade:**  Vamos agora treinar um pouco com exercícios de fixação. Responda as perguntas da atividade [“Matrizes e laços aninhados”](https://forms.gle/nBfhFEJDgrcyTJyu5). 
 
 ## Prática em Programação
 
