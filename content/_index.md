@@ -1,6 +1,5 @@
 ---
 title: "Computação 1 em Python"
-archetype: "home"
 ---
 
 <div style="width: 100%;
