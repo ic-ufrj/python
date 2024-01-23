@@ -148,6 +148,9 @@ Observações importantes:
 
 ## Prática em Programação
 
-Após concluir as etapas anteriores deste roteiro, faça as atividades práticas desta aula, disponíveis no Google Classroom da turma. 
+Após concluir as etapas anteriores deste roteiro, faça as atividades práticas desta aula:
 
-Até a próxima aula!
+- [Laboratório 7 - Machine Teaching](lab7_MT.pdf)
+- [Laboratório 7 - IDLE](lab7_IDLE.pdf)
+
+Até a próxima aula.

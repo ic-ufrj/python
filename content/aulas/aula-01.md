@@ -170,6 +170,12 @@ Agora que você já deu seus primeiros passos na escrita de código em Python, e
 
 Na parte de atividades do Google Sala de Aula, está uma lista de exercícios, que corresponde à prática desta semana. Ela contempla uma lista de funções que você deve fazer no editor do IDLE, testando sempre no shell. Seu professor dará mais detalhes sobre a entrega destes exercícios.
 
+## Prática em Programação
+
+Após concluir as etapas anteriores deste roteiro, faça as atividades práticas desta aula, ela contempla uma lista de funções que você deve fazer no editor do IDLE, testando sempre no shell:
+
+- [Laboratório 1](lab1.pdf)
+
 ### Material Complementar
 
 Para se aprofundar: [Linguagem de Programação](https://pt.wikipedia.org/wiki/Linguagem_de_programa%C3%A7%C3%A3o)
@@ -179,3 +185,6 @@ Vídeo: [Como aprender programação - histórias e dicas](https://youtu.be/6OkQ
 Livros de Python em português: [AprendaMais](https://wiki.python.org.br/AprendaMais)
 
 Site oficial do Python: [Python.org](https://www.python.org/)
+
+
+Até a próxima aula. 
