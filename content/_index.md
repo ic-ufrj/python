@@ -1,3 +1,8 @@
+---
+title: "Computação 1 em Python"
+archetype: "home"
+---
+
 <div style="width: 100%;
             height: 350px;
             background: linear-gradient(to bottom right, #02087d, #2e66ff);
