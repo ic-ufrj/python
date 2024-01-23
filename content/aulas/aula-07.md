@@ -39,9 +39,9 @@ Vamos  fazer agora o teste de mesa de um código contendo um comando while. No t
 
 Relembrando: para acessar a ferramenta Python tutor, mencionada no vídeo, use o link [Python Tutor](http://www.pythontutor.com/).
 
-**Atividade**: Vamos agora treinar um pouco com exercícios de fixação. Responda as perguntas da atividade “While: primeiros passos”. Fique atento ao prazo de entrega dessa atividade!
+**Atividade**: Vamos agora treinar um pouco com exercícios de fixação. Responda as perguntas do formulário [“While: primeiros passos”](https://forms.gle/6RsZyHn3BMXL6YMj6). 
 
-## Contadores e acumuladores
+## Contadores e acumuladores 
 
 Vamos retomar o exemplo do exercício “filtra pares”. Você reparou que, para resolver esse problema no caso de uma tupla de qualquer tamanho, usamos duas variáveis que eram atualizadas a cada repetição? Uma delas para guardar o índice do elemento a ser verificado, e outra, para construir gradativamente a tupla de resposta. Essas duas estratégias de atualização de variáveis associadas à estrutura de repetição são bastante comuns, e recebem nomes especiais: **contadores** e **acumuladores**, respectivamente. 
 
@@ -123,7 +123,7 @@ def todasasvogais(texto):
 
 Neste exemplo temos um contador e um acumulador. Você consegue identificá-los? O acumulador é do tipo string. 
 
-**Atividade**: Vamos agora treinar um pouco com exercícios de fixação. Responda as perguntas da atividade “Contadores e acumuladores”. Fique atento ao prazo de entrega dessa atividade!
+**Atividade**: Vamos agora treinar um pouco com exercícios de fixação. Responda as perguntas do formulário [“Contadores e acumuladores”](https://forms.gle/hvCPUzxanquFRCAj7).
 
 Veremos agora outros exemplos de código com o comando `while`. Você também verá o uso da função `randint` para manipular valores randômicos (aleatórios). 
 
@@ -144,9 +144,9 @@ Observações importantes:
 - Em alguns casos, no entanto, apesar do laço ser infinito em teoria, o fato dos dados que estamos usando no computador serem finitos,  pode levar a uma situação onde a condição de parada eventualmente é satisfeita, com a obtenção de uma resposta que, em geral, não faz muito sentido. É o caso do problema das populações que crescem. Temos a população A (popA) e a população B (popB)  e suas respectivas taxas de crescimento, e queremos saber quando popA alcança popB. Caso popA seja menor do que popB e sua taxa de crescimento seja também menor, a condição de parada (popA >= popB) nunca deveria ser verdade. Mas na realidade o tipo de dados float é finito, e quando as populações obtidas ultrapassarem o limite de valores representáveis pelo tipo float, essas variáveis receberão uma sequência de zeros e uns que é interpretada como **infinito**, por convenção. Quando ambas chegarem a esse valor, as populações serão consideradas iguais, levando à parada do laço e o retorno de algum valor que não representa o que o programador desejava. Fique atento!
 - Algumas ferramentas (não é o caso do IDLE) incluem o conceito de “time-out”,  ou seja, ela executa  por um determinado tempo e eventualmente “desiste” de continuar, encerrando a execução do código. O que será devolvido como resposta vai depender da ferramenta, nesse caso.
 
-**Atividade**: Vamos agora treinar um pouco com exercícios de fixação. Responda as perguntas da atividade “Explorando o while”. Fique atento ao prazo de entrega dessa atividade!
+**Atividade**: Vamos agora treinar um pouco com exercícios de fixação. Responda as perguntas do formulário [“Explorando o while”](https://forms.gle/rLyGHjpY3tcVK3Ee7).
 
-## Prática em Programação
+## Prática em Programação https://forms.gle/HksQ51vubMjj4PXB7
 
 Após concluir as etapas anteriores deste roteiro, faça as atividades práticas desta aula:
 
