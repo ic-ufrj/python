@@ -592,6 +592,8 @@ função principal continua executando corretamente.
 ## Prática em Programação
 
 Após concluir as etapas anteriores deste roteiro, faça as atividades
-práticas desta aula, disponíveis no Google Classroom da turma.
-Esperamos que tenha gostado do curso e que as habilidades que você
-desenvolveu lhe sejam úteis!
+práticas desta aula:
+
+- [Laboratório 11 - IDLE](lab11.pdf)
+
+Até a próxima aula. 

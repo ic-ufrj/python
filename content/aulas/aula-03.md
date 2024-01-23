@@ -119,9 +119,9 @@ espaços, e algumas das expressões propostas podem não ser válidas.
 >>> str(5) 
 ```
 
-**Atividade**. Chegou a hora de testar os seus conhecimentos. Após
-terminar este exercício, responda às perguntas da atividade “tipos de
-dados”. Fique atento ao prazo de entrega dessa atividade!
+**Atividade:** Vamos agora treinar um pouco com exercícios de
+  fixação. Responda as perguntas da atividade [“Tipos de
+  Dados”](https://forms.gle/rLyGHjpY3tcVK3Ee7).
 
 ## Operadores e Expressões Booleanas
 
@@ -146,10 +146,9 @@ ser considerada booleana ou não.
 
 {{< youtube id="LvsZH86dgDE" title="Exemplos: Operadores e Expressões Booleanas" >}}
 
-**Atividade**. Chegou a hora de testar os seus conhecimentos. Após
-terminar este exercício, responda às perguntas da atividade
-“Expressões Booleanas”. Fique atento ao prazo de entrega dessa
-atividade!
+**Atividade:** Vamos agora treinar um pouco com exercícios de
+  fixação. Responda as perguntas da atividade [“Expressões
+  Booleanas”](https://forms.gle/AxmQjVvFj75RcnQ29).
 
 ## Estrutura Condicional
 
@@ -198,14 +197,16 @@ vídeo anterior, estão disponíveis como material de consulta na sua
 turma do Classroom.  Função `PosNegZero` (implementação utilizando
 IF/ELSE aninhados) Função `PosNegZero` (implementação utilizando ELIF)
 
-**Atividade**. Chegou a hora de testar os seus conhecimentos. Após
-terminar este exercício, responda às perguntas da atividade
-“Condicional”. Fique atento ao prazo de entrega dessa atividade!
+**Atividade:** Vamos agora treinar um pouco com exercícios de
+  fixação. Responda as perguntas da atividade
+  [“Condicional”](https://forms.gle/PupAWi6vBxoFBAYr8).
 
 ## Prática em Programação
 
-Os conhecimentos deste roteiro serão o foco dos exercícios da prática
-dessa semana. Atenção! Esta prática tem duas partes: uma para ser
-feita no IDLE, outra pra ser feita em uma ferramenta didática para
-ensino de computação, o Machine Teaching. Seu professor lhe dará os
-detalhes da entrega de suas resoluções.
+Após concluir as etapas anteriores deste roteiro, faça as atividades
+práticas desta aula:
+
+- [Laboratório 3 - Machine Teaching](lab3MT.pdf)
+- [Laboratório 3 - IDLE](lab3_IDLE_v2.pdf)
+
+Até a próxima aula. 
