@@ -4,7 +4,7 @@ title: "01. Apresentação do curso"
 
 Olá! Bem-vindo ao curso de introdução à programação da UFRJ. 😊 Este é o material de nossa primeira aula. Além de conhecer os objetivos e o formato do curso, essa primeira semana também será uma oportunidade para conhecer seu professor e alguns dos monitores das atividades práticas.
 
-Nós, da equipe de instrutores, também gostaríamos de conhecer um pouco mais sobre você, seus mecanismos de acesso ao material deste curso e sobre suas expectativas. Para isso, pedimos que preencha o pequeno formulário disponível na atividade “apresentação da turma” do google classroom.
+Nós, da equipe de instrutores, também gostaríamos de conhecer um pouco mais sobre você, seus mecanismos de acesso ao material deste curso e sobre suas expectativas. Para isso, pedimos que preencha o pequeno formulário [“Conhecendo a turma de Computação 1”](https://forms.gle/emNUGHTF9MSsECDJ7).
 
 Este curso de introdução à programação é oferecido para estudantes de várias áreas dentro das ciências exatas e da terra da UFRJ. A programação é uma competência cada dia mais valiosa a todas as pessoas, e é muito importante para os universitários destas áreas.
 
@@ -71,9 +71,9 @@ Veja este artigo sobre as razões para se aprender a programar em Python:
 Conheça o site oficial da linguagem de programação Python: [https://www.python.org/](https://www.python.org/)
 
 ### Atividade
-Vamos convidá-lo agora a exercitar os conhecimentos que acabamos de ver. Você vai agora fazer uma atividade respondendo algumas perguntas sobre os conceitos que acabamos de estudar. Fique atento: o importante é escrever respostas suas, próprias, que revelem o seu entendimento. É inútil copiar respostas de qualquer material. Nossa equipe já sabe esses conceitos, estamos interessados em ver como você os entendeu, para que possamos orientar nossas próximas ações educativas. Se você coloca respostas copiadas, ninguém se beneficia, nem nós, nem você mesmo. Ao contrário, você tirará grande proveito do exercício ao tentar elaborar suas próprias respostas, pois é nesse processo que você tem a oportunidade de refletir sobre o que foi estudado, articular cada parte de informação que está na sua memória e consolid
+Vamos convidá-lo agora a exercitar os conhecimentos que acabamos de ver. Você vai agora fazer uma atividade respondendo algumas perguntas sobre os conceitos que acabamos de estudar. Fique atento: o importante é escrever respostas suas, próprias, que revelem o seu entendimento. É inútil copiar respostas de qualquer material. Nossa equipe já sabe esses conceitos, estamos interessados em ver como você os entendeu, para que possamos orientar nossas próximas ações educativas. Se você coloca respostas copiadas, ninguém se beneficia, nem nós, nem você mesmo. Ao contrário, você tirará grande proveito do exercício ao tentar elaborar suas próprias respostas, pois é nesse processo que você tem a oportunidade de refletir sobre o que foi estudado, articular cada parte de informação que está na sua memória e consolidar seus conhecimentos. 
 
-ar seus conhecimentos. Então respire fundo, e responda o formulário que está no google classroom.
+Então respire fundo, e responda o formulário [“Conceitos Iniciais”](https://forms.gle/B76mXNVCUAtHpR978).
 
 ## Primeiros passos na programação
 
