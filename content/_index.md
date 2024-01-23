@@ -6,8 +6,11 @@ title: "Computação 1 em Python"
     .gradient-box {
         width: 100%;
         height: 350px;
-        background: linear-gradient(to bottom right, #02087d, #2e66ff);
-        position: relative;
+        background: linear-gradient(to bottom right,#02087d,#2e66ff);
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
     }
     .cutout {
         position: absolute;
@@ -48,38 +51,16 @@ title: "Computação 1 em Python"
         }
 </style>
 
-<div style="width: 100%;
-            height: 350px;
-            background: linear-gradient(to bottom right,#02087d,#2e66ff);
-            position: absolute;
-            margin: auto;
-            top: 0;
-            left: 0;">
-    <div style="position: absolute;
-                bottom: 0;
-                left: 0;
-                width: 100%;
-                height: 100px;
-                background: #fff; 
-                clip-path: polygon(0 100%, 100% 100%, 100% 0);"></div>
+<div class="gradient-box">
+    <div class="cutout"></div>
 </div>
-<div style="position: absolute;
-            top: 40px;
-            color: #fff;
-            font-size: 32px;
-            font-weight: bold;
-            width: 600px;
-            left: 60px;
-            font-family: system-ui;">
+<div class="titulo">
     Bem-vindo ao curso de Introdução à Programação com Python do IC/UFRJ
-    <div style="font-size: 15px;
-                font-weight: 200;
-                font-family: system-ui;
-                margin-top: 20px;">
+    <div class="subtitulo">
         Você pode acessar as aulas na [lista de aulas](./aulas/index.html) ou na barra barra lateral (em modo desktop), ou no menu hambúrguer (em dispositivos móveis).
     </div>
 </div>
-<div style=" display: flex; margin: auto; max-width: 850px; margin-top: -140px; z-index: 8; position: relative;">
+<div style="    display: flex; margin: auto; max-width: 850px; margin-top: -140px; z-index: 8; position: relative;">
     <div class="card">
         <i class="fas fa-code"></i>
         <h3>Importância da Programação</h3>
