@@ -410,4 +410,15 @@ Pois bem, até aqui você aprendeu mais sobre a escrita e o uso de funções em 
 
 **Atividade:** Para refletir sobre estes conteúdos e fixar seus conhecimentos, faça agora a atividade “Pesquisando funções pré definidas”. Não hesite em tirar dúvidas na aula síncrona ou nos plantões de monitoria. 
 
-Concluído o estudo dirigido, leve suas dúvidas para a aula síncrona.Você terá oportunidade de consolidar seus conhecimentos realizando a **atividade prática** desta aula, que ficará disponível no painel de atividades. 
+Concluído o estudo dirigido, leve suas dúvidas para a aula síncrona. Você terá oportunidade de consolidar seus conhecimentos realizando a **atividade prática** desta aula. 
+
+
+
+## Prática em Programação
+
+Após concluir as etapas anteriores deste roteiro, faça as atividades práticas desta aula:
+
+- [Laboratório 2 - Machine Teaching](lab2_MT.pdf)
+- [Laboratório 2 - IDLE](lab2_IDLE.pdf)
+
+Até a próxima aula. 
