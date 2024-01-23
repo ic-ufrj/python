@@ -48,7 +48,14 @@ title: "Computação 1 em Python"
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         text-align: center;
         margin: 10px;
+        font-size: 14px;
         }
+
+    .titulo-card {
+        font-size: 25px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
 </style>
 
 <div class="gradient-box">
@@ -60,20 +67,20 @@ title: "Computação 1 em Python"
         Você pode acessar as aulas na [lista de aulas](./aulas/index.html) ou na barra barra lateral (em modo desktop), ou no menu hambúrguer (em dispositivos móveis).
     </div>
 </div>
-<div style="    display: flex; margin: auto; max-width: 850px; margin-top: -140px; z-index: 8; position: relative;">
+<div style="display: flex; margin: auto; max-width: 850px; margin-top: 230px; z-index: 8; position: relative;">
     <div class="card">
-        <i class="fas fa-code"></i>
-        <h3>Importância da Programação</h3>
+        <i class="fas fa-code" style="font-size: 20px; margin: 10px;"></i>
+        <div class="titulo-card">Importância da Programação</div>
         <p>A programação expande o pensamento lógico e estimula a resolução de problemas, habilidades essenciais em qualquer área profissional.</p>
     </div>
     <div class="card">
         <i class="fab fa-python"></i>
-        <h3>Por que Python?</h3>
+        <div class="titulo-card">Por que Python?</div>
         <p>Python é uma linguagem versátil e poderosa, facilitando a entrada no mundo da programação. É usada em diversas áreas, desde desenvolvimento web até inteligência artificial.</p>
     </div>
     <div class="card">
         <i class="fas fa-graduation-cap"></i>
-        <h3>Aprender Agora</h3>
+        <div class="titulo-card">Aprender Agora</div>
         <p>Comece sua jornada de aprendizado em programação com Python. Aprender a programar abre portas para oportunidades incríveis de crescimento profissional.</p>
     </div>
 </div>
