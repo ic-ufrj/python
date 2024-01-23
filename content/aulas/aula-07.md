@@ -144,9 +144,9 @@ Observações importantes:
 - Em alguns casos, no entanto, apesar do laço ser infinito em teoria, o fato dos dados que estamos usando no computador serem finitos,  pode levar a uma situação onde a condição de parada eventualmente é satisfeita, com a obtenção de uma resposta que, em geral, não faz muito sentido. É o caso do problema das populações que crescem. Temos a população A (popA) e a população B (popB)  e suas respectivas taxas de crescimento, e queremos saber quando popA alcança popB. Caso popA seja menor do que popB e sua taxa de crescimento seja também menor, a condição de parada (popA >= popB) nunca deveria ser verdade. Mas na realidade o tipo de dados float é finito, e quando as populações obtidas ultrapassarem o limite de valores representáveis pelo tipo float, essas variáveis receberão uma sequência de zeros e uns que é interpretada como **infinito**, por convenção. Quando ambas chegarem a esse valor, as populações serão consideradas iguais, levando à parada do laço e o retorno de algum valor que não representa o que o programador desejava. Fique atento!
 - Algumas ferramentas (não é o caso do IDLE) incluem o conceito de “time-out”,  ou seja, ela executa  por um determinado tempo e eventualmente “desiste” de continuar, encerrando a execução do código. O que será devolvido como resposta vai depender da ferramenta, nesse caso.
 
-**Atividade**: Vamos agora treinar um pouco com exercícios de fixação. Responda as perguntas do formulário [“Explorando o while”](https://forms.gle/rLyGHjpY3tcVK3Ee7).
+**Atividade**: Vamos agora treinar um pouco com exercícios de fixação. Responda as perguntas do formulário [“Explorando o while”](https://forms.gle/HksQ51vubMjj4PXB7).
 
-## Prática em Programação https://forms.gle/HksQ51vubMjj4PXB7
+## Prática em Programação 
 
 Após concluir as etapas anteriores deste roteiro, faça as atividades práticas desta aula:
 
