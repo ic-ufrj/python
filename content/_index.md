@@ -1,10 +1,35 @@
----
-title: "Computação 1 em Python"
-archetype: "home"
----
+<style>
+    .gradient-box {
+        width: 100%;
+        height: 350px;
+        background: linear-gradient(to bottom right, #02087d, #2e66ff);
+        position: relative;
+    }
+    .cutout {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background: #fff; /* Cor da "corte" na diagonal */
+        clip-path: polygon(0 100%, 100% 100%, 100% 0);
+    }
 
-Bem-vindo ao curso de Introdução à Programação com Python do IC/UFRJ
+    .titulo {
+        position: absolute;
+        top: 40px;
+        color: #fff;
+        font-size: 32px;
+        font-weight: bold;
+        width: 600px;
+        left: 60px;
+        font-family: system-ui;
+    }
+</style>
 
-Você pode acessar as aulas na [lista de aulas](./aulas/index.html) ou na barra barra lateral (em modo desktop), ou no menu hambúrguer (em dispositivos móveis).
-
-<img src="../static/images/entrada_ic.jpg" alt="Texto Alternativo" style="width: 50%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+<div class="gradient-box">
+    <div class="cutout"></div>
+</div>
+<div class="titulo">
+    Bem-vindo ao curso de Introdução à Programação com Python do IC/UFRJ
+</div>
