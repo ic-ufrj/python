@@ -3,7 +3,7 @@ Python UFRJ
 
 Este é o repositório do curso de Computação I em Python.
 
-**Website:** https://hugomg.github.io/python-ufrj/
+**Website:** https://ic-ufrj.github.io/python-ufrj/
 
 Instalação
 ----------
@@ -11,7 +11,7 @@ Instalação
 O primeiro passo é clonar este repositório.
 
 ```
-git clone https://github.com/hugomg/python-ufrj
+git clone https://github.com/ic-ufrj/python-ufrj
 ```
 
 O segundo passo é instalar o Hugo. O tema que estamos usando exige uma versão
@@ -56,10 +56,10 @@ git commit
 git push
 ```
 
-Após o Push, [o site](https://hugomg.github.io/python-ufrj/) será recompilado
+Após o Push, [o site](https://ic-ufrj.github.io/python-ufrj/) será recompilado
 e atualizado automaticamente. Este processo demora por volta de 1-2 minutos.
 Você pode conferir este andamento na aba
-[Actions](https://github.com/hugomg/python-ufrj/actions) do Github.
+[Actions](https://github.com/ic-ufrj/python-ufrj/actions) do Github.
 
 
 Não use URLs absolutos
