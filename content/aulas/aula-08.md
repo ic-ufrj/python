@@ -233,9 +233,12 @@ def somaParesV4(indexavel):
 **Atividade:** Faça agora a atividade “Mais exemplos com for”, para exercitar seus
 conhecimentos. Fique atento ao prazo de entrega dessa atividade!
 
+
 ## Prática em Programação
 
-Após concluir as etapas anteriores deste roteiro, faça as atividades práticas desta aula,
-disponíveis no Google Classroom da turma.
+Após concluir as etapas anteriores deste roteiro, faça as atividades práticas desta aula:
 
-Até a próxima aula!
+- [Laboratório 8 - Machine Teaching](lab8MT.pdf)
+- [Laboratório 8 - IDLE](lab8IDLE.pdf)
+
+Até a próxima aula. 
