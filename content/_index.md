@@ -123,8 +123,7 @@ archetype: "home"
     </div>
 </div>
 
-## Python para Iniciantes
-## Conheça o curso desenvolvido pelo IC‑UFRJ
+## Python para Iniciantes: Conheça o curso desenvolvido pelo IC‑UFRJ
 
 Bem vindos ao material do curso de Computação I do
 [Instituto de Computação](https://ic.ufrj.br)
