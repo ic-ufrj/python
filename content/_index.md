@@ -99,7 +99,7 @@ title: "Computação 1 em Python"
         ou na barra barra lateral (em modo desktop), ou no menu hambúrguer (em dispositivos móveis).
     </div>
 </div>
-<div style="display: flex; margin: auto; max-width: 850px; margin-top: 230px; z-index: 8; position: relative;">
+<div class="main-card">
     <div class="card">
         <i class="fas fa-code" style="font-size: 20px; margin: 10px;"></i>
         <div class="titulo-card">Importância da Programação</div>
