@@ -128,4 +128,4 @@ title: "Computação 1 em Python"
     <p>Mas isso não significa que não possa também ser usado de maneira autônoma por estudantes interessados em aprender noções básicas de programação através da linguagem Python. Se é o seu caso, por que não experimentar?</p>
     <p>Cada aula é dirigida por um roteiro, com parte do conteúdo apresentado por escrito e parte do conteúdo apresentado através de vídeos. Disponibilizamos também alguns exercícios com correção automática através de formulários online e algumas listas de exercícios (ou laboratórios) com problemas para os quais pedimos que desenvolvam uma solução em Python.</p>
     <p>[1] DELGADO, Carla A. D. M.; DA SILVA, João C. P.; MASCARENHAS, Fabio; DUBOC, Ana Luisa. The teaching of functions as the first step to learn imperative programming. In: 24o WORKSHOP SOBRE EDUCAÇÃO EM COMPUTAÇÃO (WEI), Porto Alegre. Anais [...]. Sociedade Brasileira de Computação, 2016. DOI: <a href="https://doi.org/10.5753/wei.2016.9683" target="_blank">https://doi.org/10.5753/wei.2016.9683</a>.</p>
-</div>
+</div> 
