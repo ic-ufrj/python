@@ -121,3 +121,11 @@ title: "Computação 1 em Python"
         <p>Comece sua jornada de aprendizado em programação com Python. Aprender a programar abre portas para oportunidades incríveis de crescimento profissional.</p>
     </div>
 </div>
+<div class="mensagem-boas-vindas">
+    <h1>Python para Iniciantes: Conheça o Curso Desenvolvido pelo IC-UFRJ</h1>
+    <p>Bem vindos ao material do curso de Computação I do Instituto de Computação (IC) da Universidade Federal do Rio de Janeiro (UFRJ).</p>
+    <p>Esse material, agora aberto ao público em geral, foi desenvolvido com base em proposta pedagógica desenvolvida por docentes do IC-UFRJ [1]. O formato apresentado aqui foi desenvolvido durante o período de isolamento social devido à pandemia de COVID-19, para o chamado "Ensino Remoto Emergencial". Isso significa que foi concebido como material de apoio a uma turma regular das disciplinas ICP114 e ICP121 (Computação I) oferecidas pelo IC a alunos de diversos cursos da UFRJ, para ser seguido com acompanhamento regular de um(a) professor(a).</p>
+    <p>Mas isso não significa que não possa também ser usado de maneira autônoma por estudantes interessados em aprender noções básicas de programação através da linguagem Python. Se é o seu caso, por que não experimentar?</p>
+    <p>Cada aula é dirigida por um roteiro, com parte do conteúdo apresentado por escrito e parte do conteúdo apresentado através de vídeos. Disponibilizamos também alguns exercícios com correção automática através de formulários online e algumas listas de exercícios (ou laboratórios) com problemas para os quais pedimos que desenvolvam uma solução em Python.</p>
+    <p>[1] DELGADO, Carla A. D. M.; DA SILVA, João C. P.; MASCARENHAS, Fabio; DUBOC, Ana Luisa. The teaching of functions as the first step to learn imperative programming. In: 24o WORKSHOP SOBRE EDUCAÇÃO EM COMPUTAÇÃO (WEI), Porto Alegre. Anais [...]. Sociedade Brasileira de Computação, 2016. DOI: <a href="https://doi.org/10.5753/wei.2016.9683" target="_blank">https://doi.org/10.5753/wei.2016.9683</a>.</p>
+</div>
