@@ -595,5 +595,3 @@ Após concluir as etapas anteriores deste roteiro, faça as atividades
 práticas desta aula:
 
 - [Laboratório 11 - IDLE](lab11.pdf)
-
-Até a próxima aula. 
