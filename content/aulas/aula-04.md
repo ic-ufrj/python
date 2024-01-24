@@ -183,6 +183,8 @@ Muito bem. Nesta aula falamos sobre variáveis, atribuições, tipo e escopo de 
 {{< youtube id="zkeCGBzdHTU" title="4- Variáveis e Atribuição, Strings, Tuplas: erros comuns" >}}
 
 **Atividade:** Vamos agora treinar um pouco com exercícios de fixação. Procure se lembrar de todos os conceitos que você adquiriu ao longo desta aula e responda as perguntas da atividade “Manipulando strings e tuplas”. Fique atento ao prazo de entrega dessa atividade! Se tiver dúvidas, comente sobre elas na aula síncrona ou nos plantões de monitoria.
+[“Manipulando strings e tuplas”](https://forms.gle/6mFZDzvG8RGfEz7h6).
+[“Variáveis e Atribuição”](https://forms.gle/MWZcK17oxJeJrEfc9).
 
 ## Prática em Programação
 
