@@ -279,6 +279,9 @@ Dicionários são **mutáveis** e cada **chave é única**, não é possível te
 
 ## Prática em Programação
 
-Após concluir as etapas anteriores deste roteiro, faça as atividades práticas desta aula, disponíveis no Google Classroom da turma.
+Após concluir as etapas anteriores deste roteiro, faça as atividades práticas desta aula:
+
+- [Laboratório 5 - Machine Teaching](lab5MT.pdf)
+- [Laboratório 5 - IDLE](lab5IDLE.pdf)
 
 Até a próxima aula!

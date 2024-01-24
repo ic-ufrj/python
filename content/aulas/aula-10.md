@@ -196,6 +196,8 @@ Comparação de velocidades (v0 = 2.0 m/s; a = 0.5 m/s²):
 
 ## Prática em Programação
 
-Após concluir as etapas anteriores deste roteiro, faça as atividades práticas desta aula, disponíveis no Google Classroom da turma.
-Até a próxima aula!
+Após concluir as etapas anteriores deste roteiro, faça as atividades práticas desta aula:
 
+- [Laboratório 10](lab10.pdf)
+
+Até a próxima aula!
