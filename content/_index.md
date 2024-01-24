@@ -5,7 +5,7 @@ title: "Computação 1 em Python"
 <style>
     .gradient-box {
         width: 100%;
-        height: 350px;
+        height: 400px;
         background: linear-gradient(to bottom right,#02087d,#2e66ff);
         position: absolute;
         margin: auto;
@@ -44,7 +44,7 @@ title: "Computação 1 em Python"
         display: flex; 
         margin: auto; 
         max-width: 850px; 
-        margin-top: 230px; 
+        margin-top: 240px; 
         z-index: 8; 
         position: relative;
     }
