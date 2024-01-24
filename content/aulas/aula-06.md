@@ -404,4 +404,4 @@ Após concluir as etapas anteriores deste roteiro, faça as atividades práticas
 - [Laboratório 6 - Machine Teaching](lab6MT.pdf)
 - [Laboratório 6 - IDLE](lab6IDLE.pdf)
 
-Até a próxima aula. 
+Até a próxima aula! 

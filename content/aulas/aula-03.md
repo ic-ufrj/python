@@ -209,4 +209,4 @@ práticas desta aula:
 - [Laboratório 3 - Machine Teaching](lab3MT.pdf)
 - [Laboratório 3 - IDLE](lab3_IDLE_v2.pdf)
 
-Até a próxima aula. 
+Até a próxima aula! 

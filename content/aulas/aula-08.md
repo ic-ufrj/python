@@ -241,4 +241,4 @@ Após concluir as etapas anteriores deste roteiro, faça as atividades práticas
 - [Laboratório 8 - Machine Teaching](lab8MT.pdf)
 - [Laboratório 8 - IDLE](lab8IDLE.pdf)
 
-Até a próxima aula. 
+Até a próxima aula! 

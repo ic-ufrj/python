@@ -421,4 +421,4 @@ Após concluir as etapas anteriores deste roteiro, faça as atividades práticas
 - [Laboratório 2 - Machine Teaching](lab2_MT.pdf)
 - [Laboratório 2 - IDLE](lab2_IDLE.pdf)
 
-Até a próxima aula. 
+Até a próxima aula! 

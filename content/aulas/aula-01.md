@@ -183,4 +183,4 @@ Livros de Python em português: [AprendaMais](https://wiki.python.org.br/Aprenda
 Site oficial do Python: [Python.org](https://www.python.org/)
 
 
-Até a próxima aula. 
+Até a próxima aula! 

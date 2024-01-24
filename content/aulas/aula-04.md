@@ -194,5 +194,5 @@ práticas desta aula:
 - [Laboratório 4 - Machine Teaching](Lab_04_MT.pdf)
 - [Laboratório 4 - IDLE](Lab_04_IDLE.pdf)
 
-Até a próxima aula. 
+Até a próxima aula! 
 

@@ -153,4 +153,4 @@ Após concluir as etapas anteriores deste roteiro, faça as atividades práticas
 - [Laboratório 7 - Machine Teaching](lab7_MT.pdf)
 - [Laboratório 7 - IDLE](lab7_IDLE.pdf)
 
-Até a próxima aula.
+Até a próxima aula!
