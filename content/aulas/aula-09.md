@@ -148,11 +148,14 @@ O vídeo a seguir apresenta o passo a passo de uma função para multiplicação
 
 **Atividade:**  Vamos agora treinar um pouco com exercícios de fixação. Responda as perguntas da atividade [“Matrizes e laços aninhados”](https://forms.gle/nBfhFEJDgrcyTJyu5). 
 
+
 ## Prática em Programação
 
-Após concluir as etapas anteriores deste roteiro, faça as atividades práticas desta aula, disponíveis no Google Classroom da turma. 
+Após concluir as etapas anteriores deste roteiro, faça as atividades práticas desta aula:
 
-Até a próxima aula! 
+- [Laboratório 9 - Machine Teaching](lab9MT.pdf)
+- [Laboratório 9 - IDLE](lab9IDLE.pdf)
 
+Até a próxima aula!
 
 

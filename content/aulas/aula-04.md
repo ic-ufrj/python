@@ -184,3 +184,13 @@ Muito bem. Nesta aula falamos sobre variáveis, atribuições, tipo e escopo de 
 
 **Atividade:** Vamos agora treinar um pouco com exercícios de fixação. Procure se lembrar de todos os conceitos que você adquiriu ao longo desta aula e responda as perguntas da atividade “Manipulando strings e tuplas”. Fique atento ao prazo de entrega dessa atividade! Se tiver dúvidas, comente sobre elas na aula síncrona ou nos plantões de monitoria.
 
+## Prática em Programação
+
+Após concluir as etapas anteriores deste roteiro, faça as atividades
+práticas desta aula:
+
+- [Laboratório 4 - Machine Teaching](Lab_04_MT.pdf)
+- [Laboratório 4 - IDLE](Lab_04_IDLE.pdf)
+
+Até a próxima aula. 
+
