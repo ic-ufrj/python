@@ -1,5 +1,6 @@
 ---
 title: "Computação 1 em Python"
+archetype: "home"
 ---
 
 <style>
