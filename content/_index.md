@@ -86,6 +86,11 @@ title: "Computação 1 em Python"
         color: #fff;
         text-decoration: underline;
     }
+
+    .link-lista:hover {
+        color: #fff;
+        font-weight: bold;
+    }
 </style>
 
 <div class="gradient-box">
