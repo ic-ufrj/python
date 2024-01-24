@@ -4,7 +4,7 @@ title: "01. Apresentação do curso"
 
 Olá! Bem-vindo ao curso de introdução à programação da UFRJ. 😊 Este é o material de nossa primeira aula. Além de conhecer os objetivos e o formato do curso, essa primeira semana também será uma oportunidade para conhecer seu professor e alguns dos monitores das atividades práticas.
 
-Nós, da equipe de instrutores, também gostaríamos de conhecer um pouco mais sobre você, seus mecanismos de acesso ao material deste curso e sobre suas expectativas. Para isso, pedimos que preencha o pequeno formulário [“Conhecendo a turma de Computação 1”](https://forms.gle/emNUGHTF9MSsECDJ7).
+Nós, da equipe de instrutores, também gostaríamos de conhecer um pouco mais sobre você, seus mecanismos de acesso ao material deste curso e sobre suas expectativas. Para isso, pedimos que, caso queira, preencha o pequeno formulário [“Conhecendo a turma de Computação 1”](https://forms.gle/emNUGHTF9MSsECDJ7).
 
 Este curso de introdução à programação é oferecido para estudantes de várias áreas dentro das ciências exatas e da terra da UFRJ. A programação é uma competência cada dia mais valiosa a todas as pessoas, e é muito importante para os universitários destas áreas.
 
