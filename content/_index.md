@@ -64,7 +64,9 @@ title: "Computação 1 em Python"
 <div class="titulo">
     Bem-vindo ao curso de Introdução à Programação com Python do IC/UFRJ
     <div class="subtitulo">
-        Você pode acessar as aulas na [lista de aulas](./aulas/index.html) ou na barra barra lateral (em modo desktop), ou no menu hambúrguer (em dispositivos móveis).
+        Você pode acessar as aulas na 
+        <a href="./aulas/index.html">lista de aulas</a>
+        ou na barra barra lateral (em modo desktop), ou no menu hambúrguer (em dispositivos móveis).
     </div>
 </div>
 <div style="display: flex; margin: auto; max-width: 850px; margin-top: 230px; z-index: 8; position: relative;">
@@ -74,13 +76,13 @@ title: "Computação 1 em Python"
         <p>A programação expande o pensamento lógico e estimula a resolução de problemas, habilidades essenciais em qualquer área profissional.</p>
     </div>
     <div class="card">
-        <i class="fab fa-python"></i>
+        <i class="fab fa-python" style="font-size: 20px; margin: 10px;"></i>
         <div class="titulo-card">Por que Python?</div>
         <p>Python é uma linguagem versátil e poderosa, facilitando a entrada no mundo da programação. É usada em diversas áreas, desde desenvolvimento web até inteligência artificial.</p>
     </div>
     <div class="card">
-        <i class="fas fa-graduation-cap"></i>
-        <div class="titulo-card">Aprender Agora</div>
+        <i class="fas fa-graduation-cap" style="font-size: 20px; margin: 10px;"></i>
+        <div class="titulo-card">Aprenda Agora!</div>
         <p>Comece sua jornada de aprendizado em programação com Python. Aprender a programar abre portas para oportunidades incríveis de crescimento profissional.</p>
     </div>
 </div>
