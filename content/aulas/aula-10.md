@@ -159,8 +159,7 @@ A função **input** lê dados do usuário e para isto ele temporariamente conge
 
 **Atenção:** Não use a função input dentro de funções que não sejam específicas para entrada de dados. As entradas para uma função devem vir pelos parâmetros. Isso é essencial para que possamos seguir a arquitetura de software em camadas, onde a interface está claramente separada das funções de serviço.
 
-
-**Atividade:** Vamos agora treinar um pouco com exercícios de fixação. Responda as perguntas da atividade "Funções print e input". Fique atento ao prazo de entrega dessa atividade!
+**Atividade:** Vamos agora treinar um pouco com exercícios de fixação. Responda as perguntas da atividade [Funções print e input](https://forms.gle/9gf5q5uBWgcH3jNM7). 
 
 ## Coordenação da interface com as funções de serviço na função main
 

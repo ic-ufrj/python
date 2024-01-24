@@ -162,7 +162,7 @@ O vídeo a seguir apresenta de forma detalhada o fatiamento de listas. Você pod
 
 O Python permite o uso do comando de atribuição para fatias de listas. Ficou curioso? Você pode pesquisar mais sobre isso na internet  ;-). Temos também um vídeo que aborda esse assunto, para ajudar a matar a curiosidade: Atribuição a fatias.
 
-**Atividade:** Vamos agora treinar um pouco com exercícios de fixação. Responda às perguntas da atividade "Uso de listas". Fique atento ao prazo de entrega dessa atividade!
+**Atividade:** Vamos agora treinar um pouco com exercícios de fixação. Responda às perguntas da atividade [Uso de listas](https://forms.gle/21Ub2F5nMbp6fioS7). Fique atento ao prazo de entrega dessa atividade!
 
 ## Dicionários
 
@@ -275,7 +275,7 @@ Dicionários são **mutáveis** e cada **chave é única**, não é possível te
 {'farinha': 3.0, 'feijão': 5.0, 'leite': 4.25, 'açúcar': 2.49, 'arroz': 7.5}
 ```
 
-**Atividade:** Responda às perguntas do formulário "Uso de Dicionários''. Lembre que você pode testar o código no IDLE ou no Pythontutor.
+**Atividade:** Responda às perguntas do formulário [Uso de Dicionários](https://forms.gle/9AUKGA8eHUcUaMRc9). Lembre que você pode testar o código no IDLE ou no Pythontutor.
 
 ## Prática em Programação
 
