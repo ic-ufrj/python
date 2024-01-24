@@ -158,7 +158,7 @@ Imagine agora que não seja esse o comportamento desejado, ou seja, que queremos
 [10, 20, 30, 40, 50, 60, 70, 80, 90]
 ```
 
-**Atividade:** Vamos agora treinar um pouco com exercícios de fixação. Responda as perguntas da atividade "Manipulação de Strings e Listas".
+**Atividade:** Vamos agora treinar um pouco com exercícios de fixação. Responda as perguntas da atividade ["Manipulação de Strings"](https://forms.gle/VSANxfR5AzYrQvLQ7).
 
 
 ## Funções específicas para manipulação de listas
@@ -272,7 +272,7 @@ Veja agora, com mais detalhes as outras funções e operadores de listas:
 
 {{< youtube id="jvcpw8clIUU" title="Ainda mais funções e operações sobre listas" >}}
 
-**Atividade:** Vamos agora treinar um pouco com exercícios de fixação. Responda as perguntas da atividade "Manipulação de listas".
+**Atividade:** Vamos agora treinar um pouco com exercícios de fixação. Responda as perguntas da atividade ["Manipulação de Listas"](https://forms.gle/5DBsRQjqbW13uuzo7).
 
 ## Funções específicas para manipulação de dicionários
 
@@ -329,7 +329,7 @@ Veja mais sobre as funções de dicionários no vídeo:
 
 {{< youtube id="2WrHduxNRBc" title="Manipulação de dicionários" >}}
 
-**Atividade:** Faça agora a atividade "Manipulação de dicionários", para exercitar seus conhecimentos.
+**Atividade:** Faça agora a atividade ["Manipulação de Dicionários"](https://forms.gle/Yqfa64yx6iow8w4b7), para exercitar seus conhecimentos.
 
 **Exercício:** Vamos trabalhar um pouco a manipulação de listas em funções. Usaremos como exemplo o aplicativo `contatinhosApp`, que apareceu anteriormente nas atividades práticas.  
 
