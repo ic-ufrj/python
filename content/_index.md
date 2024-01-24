@@ -40,6 +40,22 @@ title: "Computação 1 em Python"
         margin-top: 20px;
     }
 
+    .main-card {
+        display: flex; 
+        margin: auto; 
+        max-width: 850px; 
+        margin-top: 230px; 
+        z-index: 8; 
+        position: relative;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .main-card {
+           display: block;
+           text-align: -webkit-center;
+        }
+    }
+
     .card {
         width: 300px;
         padding: 20px;
