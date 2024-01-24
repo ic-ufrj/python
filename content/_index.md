@@ -54,6 +54,15 @@ title: "Computação 1 em Python"
            display: block;
            text-align: -webkit-center;
         }
+
+        .titulo {
+            font-size: 20px;
+            width: 300px;
+        }
+
+        .subtitulo {
+            font-size: 13px;
+        }
     }
 
     .card {
@@ -72,6 +81,11 @@ title: "Computação 1 em Python"
         font-weight: 400;
         margin-top: 10px;
     }
+
+    .link-lista {
+        color: #fff;
+        text-decoration: underline;
+    }
 </style>
 
 <div class="gradient-box">
@@ -81,7 +95,7 @@ title: "Computação 1 em Python"
     Bem-vindo ao curso de Introdução à Programação com Python do IC/UFRJ
     <div class="subtitulo">
         Você pode acessar as aulas na 
-        <a href="./aulas/index.html">lista de aulas</a>
+        <a class="link-lista" href="./aulas/index.html">lista de aulas</a>
         ou na barra barra lateral (em modo desktop), ou no menu hambúrguer (em dispositivos móveis).
     </div>
 </div>
