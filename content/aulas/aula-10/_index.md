@@ -145,10 +145,10 @@ Podemos usar códigos específicos para definir o formato dos dados a serem inse
 
 Todos os dados float abaixo foram formatados com o código `{6.2f}`:
 
-![Exemplo de formato {6.2f}](image4.png)
-![Exemplo de formato {6.2f}](image3.png)
-
-Fonte: https://www.python-course.eu/python3_formatted_output.php
+{{< figure src="image4.png" alt="Exemplo de formato {6.2f}" >}}
+{{< figure src="image3.png"
+    alt="Exemplo de formato {6.2f}"
+    caption="Fonte: https://www.python-course.eu/python3_formatted_output.php" >}}
 
 2.2 Entrada de dados
 Para a entrada de dados durante a execução, podemos utilizar a função input. Veja no vídeo abaixo como utilizar a função input e como ela nos possibilita ler dados diferentes, inseridos diretamente pelo usuário, a cada execução de nosso código.
