@@ -3,7 +3,7 @@ Python UFRJ
 
 Este é o repositório do curso de Computação I em Python.
 
-**Website:** https://ic-ufrj.github.io/python-ufrj/
+**Website:** https://python.ic.ufrj.br
 
 Instalação
 ----------
@@ -11,7 +11,7 @@ Instalação
 O primeiro passo é clonar este repositório.
 
 ```
-git clone https://github.com/ic-ufrj/python-ufrj
+git clone https://github.com/ic-ufrj/python
 ```
 
 O segundo passo é instalar o Hugo. O tema que estamos usando exige uma versão
@@ -23,8 +23,8 @@ Rodando o site
 --------------
 
 Para testar o site localmente, rode `./hugo serve` e abra o seu web-browser
-em https://localhost:1313/python-ufrj. Ele monitora a pasta com os arquivos
-markdown e atualiza o browser automáticamente quando você modificar um deles.
+em https://localhost:1313/. Ele monitora a pasta com os arquivos markdown e
+atualiza o browser automáticamente quando você modificar um deles.
 
 Você também pode rodar só `./hugo` para gerar arquivos HTML na pasta public,
 porém não dá pra abrir esses htmls direto no browser (a página fica quebrada,
@@ -56,23 +56,22 @@ git commit
 git push
 ```
 
-Após o Push, [o site](https://ic-ufrj.github.io/python-ufrj/) será recompilado
+Após o Push, [o site](https://python.ic.ufrj.br) será recompilado
 e atualizado automaticamente. Este processo demora por volta de 1-2 minutos.
 Você pode conferir este andamento na aba
-[Actions](https://github.com/ic-ufrj/python-ufrj/actions) do Github.
+[Actions](https://github.com/ic-ufrj/python/actions) do Github.
 
 
 Não use URLs absolutos
 ----------------------
 
 Hugo (o software) não lida bem com URLs absolutos caso a raiz to website seja
-um subdiretório, como no Github Pages... Por exemplo, ele "/images" para em
-"github.io/images" em vez de "github.io/python-ufrj/images" como gostaríamos.
+um subdiretório, que é o caso do Github Pages caso você ainda não tenha DNS de
+domínio próprio. Por exemplo, ele põe "/images" em "github.io/images" em vez de
+"github.io/seurepositorio/images", como gostaríamos.
 
 1. Dentro de postagens markdown, sempre use URLs relativos.
-   Neste contexto, URLs absolutos dão mais trabalho do que vale a pena.
-   Se preciso, crie pastas no static/ que espelham a hierarquia do content/
+   Salve as imagens na mesma pasta
 2. Em templates HTML, pode ser que você realmente precise de URLs absolutos.
    Use a função absURL do Hugo. Não coloque "/" no começo! (é um bug do Hugo).
-   Você pode encontrar exemplos na pasta layout.
-
+   Descrição do pepino: https://github.com/gohugoio/hugo/issues/10606
