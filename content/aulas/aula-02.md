@@ -85,7 +85,7 @@ Reparem que, uma vez que sabemos que funções podem ser reutilizadas, podemos f
 2.	Usando uma ou mais funções que já estão prontas nesse arquivo, faça uma função para calcular a área do quadrado. 
 **`IMPORTANTE:`** Não pule a etapa de planejamento da solução! Acredite, essa etapa agiliza o seu trabalho e evita erros. 
 
-Atividade: Agora você já teve sua primeira experiência de reutilização de código :-). Após terminar este exercício, responda a algumas perguntas sobre ele na atividade “reutilizando código”. Fique atento ao prazo de entrega dessa atividade!
+**Atividade:** Agora você já teve sua primeira experiência de reutilização de código :-). Após terminar este exercício, responda a algumas perguntas sobre ele na atividade ["Reutilizando Código"](https://forms.gle/TUo4Dzs5i3rUT7XE6). Fique atento ao prazo de entrega dessa atividade!
 
 **Dicas para não errar**
 
@@ -94,7 +94,7 @@ Algumas informações importantes quando trabalhamos com o uso articulado de fun
 -	Uma vez que uma função foi definida, ela pode ser usada quantas vezes desejarmos. Dessa forma, **só uma definição deve existir para cada função**, mesmo que ela seja usada duas ou mais vezes, ou até mesmo que seja usada por várias outras funções diferentes. Se o Python encontra duas definições para a mesma função, ele guarda a última encontrada apenas, descartando a anterior.
 -   **Os parâmetros das funções são informações com escopo local**, ou seja, são nomes que dizem respeito apenas ao código da respectiva função, mesmo que haja várias funções em um mesmo arquivo. Isso significa que duas funções distintas podem até usar o mesmo nome para seus parâmetros, porém os parâmetros de uma nada terão a ver com os parâmetros da outra. 
 
-**Atividade:** Para fixar seus conhecimentos, faça agora a atividade “jogo dos erros”. Fique atento ao prazo de entrega dessa atividade!
+**Atividade:** Para fixar seus conhecimentos, faça agora a atividade ["Jogo dos Erros"](https://forms.gle/acJWoZkLm5kA86pY7). Fique atento ao prazo de entrega dessa atividade!
 
 
 ##	Argumentos default
@@ -408,7 +408,7 @@ Por fim, o próximo vídeo contém alguns erros comuns que podem ocorrer quando 
 
 Pois bem, até aqui você aprendeu mais sobre a escrita e o uso de funções em Python para produzir soluções computacionais para problemas. Aprendeu a planejar soluções para um problema que podem ser compostas de várias funções. Aprendeu sobre como criar e utilizar argumentos default, e sobre os principais tipos de dados numéricos presentes no Python. Você também aprendeu que a linguagem Python permite o uso de bibliotecas de funções chamadas módulos, e que já temos disponível, junto com a instalação do Python vários módulos com funções pré-definidas que podem facilitar a construção de códigos. Por fim, você viu e aprendeu em “mais exemplos”, um resumo de como definir funções fazendo reutilização e aplicando funções do módulo math e também verificou alguns erros comuns.
 
-**Atividade:** Para refletir sobre estes conteúdos e fixar seus conhecimentos, faça agora a atividade “Pesquisando funções pré definidas”. Não hesite em tirar dúvidas na aula síncrona ou nos plantões de monitoria. 
+**Atividade:** Para refletir sobre estes conteúdos e fixar seus conhecimentos, faça agora a atividade ["Pesquisando funções pré definidas"](https://forms.gle/29zZis9fZSHC9X4s7). Não hesite em tirar dúvidas na aula síncrona ou nos plantões de monitoria. 
 
 Concluído o estudo dirigido, leve suas dúvidas para a aula síncrona. Você terá oportunidade de consolidar seus conhecimentos realizando a **atividade prática** desta aula. 
 
