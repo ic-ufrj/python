@@ -41,7 +41,7 @@ e compare com os códigos das mesmas funções escrito com o comando while (dist
 com o roteiro de estudos anterior).
 
 **Atividade:** Vamos agora treinar um pouco com exercícios de fixação. Responda as perguntas
-da atividade “Introdução ao for”. Fique atento ao prazo de entrega dessa atividade!
+da atividade ["Introdução ao for"](https://forms.gle/ZBcC6xCqnEStMH4Q9). Fique atento ao prazo de entrega dessa atividade!
 
 
 ## Exemplos de código
@@ -230,8 +230,7 @@ def somaParesV4(indexavel):
 ```
 
 
-**Atividade:** Faça agora a atividade “Mais exemplos com for”, para exercitar seus
-conhecimentos. Fique atento ao prazo de entrega dessa atividade!
+**Atividade:** Faça agora a atividade ["Mais exemplos com for"](https://forms.gle/55mkAFScPCEk2WyP8), para exercitar seus conhecimentos. Fique atento ao prazo de entrega dessa atividade!
 
 
 ## Prática em Programação
