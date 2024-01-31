@@ -134,7 +134,7 @@ Outro operador interessante que pode ser usado com strings é o operador **in**.
 
 Todo caractere de uma string é indexado, começando do primeiro caractere (índice 0) à esquerda. Por exemplo, a string “Amanda” possui os seguintes índices:
 
------- DESENHAR TABELA
+![](tabela_aula04.png)
 
 Logo para acessarmos o caractere “n” desta string, basta informar: “Amanda”[3], pois o valor contido nesta posição indexada é “n”. Existe uma segunda maneira de fazer acesso a uma posição que será abordada no vídeo a seguir.
 {{< youtube id="yP5ebC-yx7Y" title="4- Variáveis e Atribuição, Strings: Strings" >}}
